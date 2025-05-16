@@ -1,0 +1,4415 @@
+{
+    "notes": [
+        "For cat forms, f: normal, c: evolved, s: true, u: ultra form.",
+        "For rarities, N: normal, EX: special, RR: rare, SR: super rare, UR: uber rare, LR: legend rare"
+    ],
+    "combos": [
+        {
+            "combo_name": "Cat Army",
+            "combo_requirement": ["000:f","001:f","002:f","003:f","004:f"],
+            "combo_effect": "Worker Cat Start Level UP",
+            "combo_level": "Sm"
+        }
+    ],
+    "units": {
+        "000EX": {
+            "rarity": "EX",
+            "f": "The Cat God"
+        },
+        "000": {
+            "rarity": "N",
+            "f": "Cat",
+            "c": "Macho Cat",
+            "s": "Mohawk Cat"
+        },
+        "001": {
+            "rarity": "N",
+            "f": "Tank Cat",
+            "c": "Wall Cat",
+            "s": "Eraser Cat"
+        },
+        "002": {
+            "rarity": "N",
+            "f": "Axe Cat",
+            "c": "Brave Cat",
+            "s": "Dark Cat"
+        },
+        "003": {
+            "rarity": "N",
+            "f": "Gross Cat",
+            "c": "Sexy Legs Cat",
+            "s": "Macho Leg Cat"
+        },
+        "004": {
+            "rarity": "N",
+            "f": "Cow Cat",
+            "c": "Giraffe Cat",
+            "s": "Lion Cat"
+        },
+        "005": {
+            "rarity": "N",
+            "f": "Bird Cat",
+            "c": "UFO Cat",
+            "s": "The Flying Cat"
+        },
+        "006": {
+            "rarity": "N",
+            "f": "Fish Cat",
+            "c": "Whale Cat",
+            "s": "Island Cat"
+        },
+        "007": {
+            "rarity": "N",
+            "f": "Lizard Cat",
+            "c": "Dragon Cat",
+            "s": "King Dragon Cat"
+        },
+        "008": {
+            "rarity": "N",
+            "f": "Titan Cat",
+            "c": "Mythical Titan Cat",
+            "s": "Jamiera Cat"
+        },
+        "009": {
+            "rarity": "EX",
+            "f": "Actress Cat",
+            "c": "Mother Cat",
+            "s": "Beefcake Cat"
+        },
+        "010": {
+            "rarity": "EX",
+            "f": "Kung Fu Cat",
+            "c": "Drunken Master Cat",
+            "s": "Dancer Cat"
+        },
+        "011": {
+            "rarity": "EX",
+            "f": "Mr.",
+            "c": "Super Mr.",
+            "s": "Hyper Mr."
+        },
+        "012": {
+            "rarity": "EX",
+            "f": "Bondage Cat",
+            "c": "Bondage CatNEO",
+            "s": "Ultimate Bondage Cat"
+        },
+        "013": {
+            "rarity": "EX",
+            "f": "Dom Cat",
+            "c": "Executioner",
+            "s": "Dark Lazer"
+        },
+        "014": {
+            "rarity": "EX",
+            "f": "Cats in a Box",
+            "c": "Cat Gang",
+            "s": "Heavy Assault C.A.T."
+        },
+        "015": {
+            "rarity": "EX",
+            "f": "Panties Cat",
+            "c": "Leaf Cat",
+            "s": "Lollycat"
+        },
+        "016": {
+            "rarity": "EX",
+            "f": "Moneko",
+            "c": "Miss MONEKO",
+            "s": "Superstar MONEKO"
+        },
+        "017": {
+            "rarity": "EX",
+            "f": "Tricycle Cat",
+            "c": "Biker Cat",
+            "s": "Unicycle Cat"
+        },
+        "018": {
+            "rarity": "EX",
+            "f": "Ninja Cat",
+            "c": "Ninja Frog Cat",
+            "s": "Flying Ninja Cat"
+        },
+        "019": {
+            "rarity": "EX",
+            "f": "Zombie Cat",
+            "c": "Devil Cat",
+            "s": "Skelecat"
+        },
+        "020": {
+            "rarity": "EX",
+            "f": "Samurai Cat",
+            "c": "Knight Cat",
+            "s": "Pastry Cat"
+        },
+        "021": {
+            "rarity": "EX",
+            "f": "Sumo Cat",
+            "c": "Madame Sumo",
+            "s": "Riceball Cat"
+        },
+        "022": {
+            "rarity": "EX",
+            "f": "Boogie Cat",
+            "c": "Samba Cat",
+            "s": "Gato Amigo"
+        },
+        "023": {
+            "rarity": "EX",
+            "f": "Skirt Cat",
+            "c": "Tights Cat",
+            "s": "Loincloth Cat"
+        },
+        "024": {
+            "rarity": "EX",
+            "f": "Valkyrie Cat",
+            "c": "True Valkyrie Cat",
+            "s": "Holy Valkyrie Cat"
+        },
+        "025": {
+            "rarity": "EX",
+            "f": "Bahamut Cat",
+            "c": "Crazed Bahamut Cat",
+            "s": "Awakened Bahamut Cat"
+        },
+        "026": {
+            "rarity": "EX",
+            "f": "Kerihime",
+            "c": "Full color Kerihime",
+            "s": "Bridal Princess Punt"
+        },
+        "027": {
+            "rarity": "EX",
+            "f": "Cat Princess",
+            "c": "Cat Princess beauty"
+        },
+        "028": {
+            "rarity": "EX",
+            "f": "Capsule Cat",
+            "c": "Cramped Cats"
+        },
+        "029": {
+            "rarity": "EX",
+            "f": "Masked Cat",
+            "c": "Luchador Cat"
+        },
+        "030": {
+            "rarity": "SR",
+            "f": "Bodhisattva Cat",
+            "c": "Avalokitesvara Cat",
+            "s": "Tathagata Cat"
+        },
+        "031": {
+            "rarity": "SR",
+            "f": "Delinquent Cat",
+            "c": "Angry Delinquent Cat",
+            "s": "Ultra Delinquent Cat"
+        },
+        "032": {
+            "rarity": "SR",
+            "f": "Hip Hop Cat",
+            "c": "Dancing Flasher Cat",
+            "s": "Can Can Cat"
+        },
+        "033": {
+            "rarity": "SR",
+            "f": "Kotatsu Cat",
+            "c": "Sadako Cat",
+            "s": "Octopus Cat"
+        },
+        "034": {
+            "rarity": "UR",
+            "f": "Nekoluga",
+            "c": "Unknown Cat",
+            "s": "Ultralan Pasalan"
+        },
+        "035": {
+            "rarity": "SR",
+            "f": "Nerd Cat",
+            "c": "Hacker Cat",
+            "s": "Cyberpunk Cat"
+        },
+        "036": {
+            "rarity": "SR",
+            "f": "Swimmer Cat",
+            "c": "Butterfly Cat",
+            "s": "Fishman Cat"
+        },
+        "037": {
+            "rarity": "RR",
+            "f": "Pogo Cat",
+            "c": "Masai Cat",
+            "s": "Jiangshi Cat"
+        },
+        "038": {
+            "rarity": "RR",
+            "f": "Wheel Cat",
+            "c": "Solar Cat",
+            "s": "Chill Cat"
+        },
+        "039": {
+            "rarity": "SR",
+            "f": "Apple Cat",
+            "c": "Face Cat",
+            "s": "iCat"
+        },
+        "040": {
+            "rarity": "SR",
+            "f": "Bath Cat",
+            "c": "Sexy Bathtub Cat",
+            "s": "Luxury Bath Cat"
+        },
+        "041": {
+            "rarity": "RR",
+            "f": "Salon Cat",
+            "c": "Paris Cat",
+            "s": "Cyborg Cat"
+        },
+        "042": {
+            "rarity": "UR",
+            "f": "Ice Cat",
+            "c": "Ice Queen Cat",
+            "s": "Ice Crystal Cat"
+        },
+        "043": {
+            "rarity": "UR",
+            "f": "Cat Machine",
+            "c": "Cat Machine Mk 2",
+            "s": "Cat Machine Mk 3"
+        },
+        "044": {
+            "rarity": "UR",
+            "f": "Lesser Demon Cat",
+            "c": "Greater Demon Cat",
+            "s": "Greater Balrog Cat"
+        },
+        "045": {
+            "rarity": "EX",
+            "f": "Maiko Cat",
+            "c": "Geisha Cat"
+        },
+        "046": {
+            "rarity": "RR",
+            "f": "Jurassic Cat",
+            "c": "Jurassic Cat Sitter",
+            "s": "Catasaurus"
+        },
+        "047": {
+            "rarity": "RR",
+            "f": "Viking Cat",
+            "c": "Thor Cat",
+            "s": "Maximum the Fighter"
+        },
+        "048": {
+            "rarity": "RR",
+            "f": "Pirate Cat",
+            "c": "Captain Cat",
+            "s": "Dread Pirate Catley"
+        },
+        "049": {
+            "rarity": "RR",
+            "f": "Thief Cat",
+            "c": "Phantom Thief Cat",
+            "s": "Goemon Cat"
+        },
+        "050": {
+            "rarity": "RR",
+            "f": "Bishop Cat",
+            "c": "Monk Cat",
+            "s": "Sanzo Cat"
+        },
+        "051": {
+            "rarity": "RR",
+            "f": "Fortune Teller Cat",
+            "c": "Fisherman Cat",
+            "s": "Doctor Cat"
+        },
+        "052": {
+            "rarity": "RR",
+            "f": "Shaman Cat",
+            "c": "Necromancer Cat",
+            "s": "Necro-Dancer Cat"
+        },
+        "053": {
+            "rarity": "UR",
+            "f": "Evangelist Cat",
+            "c": "Filibuster Cat"
+        },
+        "054": {
+            "rarity": "EX",
+            "f": "Type 10",
+            "c": "Cat Transportation Type 10"
+        },
+        "055": {
+            "rarity": "RR",
+            "f": "Witch Cat",
+            "c": "Sorceress Cat",
+            "s": "Enchantress Cat"
+        },
+        "056": {
+            "rarity": "RR",
+            "f": "Archer Cat",
+            "c": "Cupid Cat",
+            "s": "Cataur"
+        },
+        "057": {
+            "rarity": "UR",
+            "f": "Marauder Cat",
+            "c": "Berserker Cat",
+            "s": "Paladin Cat"
+        },
+        "058": {
+            "rarity": "RR",
+            "f": "Swordsman Cat",
+            "c": "Sword Master Cat",
+            "s": "Elemental Duelist Cat"
+        },
+        "059": {
+            "rarity": "UR",
+            "f": "Baby Cat",
+            "c": "Baby Cats",
+            "s": "Cats in the Cradle",
+            "u": "Cats in the Stroller"
+        },
+        "060": {
+            "rarity": "RR",
+            "f": "Bronze Cat",
+            "c": "Michelangelo Cat",
+            "s": "Quizmaster Cat"
+        },
+        "061": {
+            "rarity": "SR",
+            "f": "Sushi Cat",
+            "c": "Fried Shrimp Cat",
+            "s": "Roe Cat"
+        },
+        "062": {
+            "rarity": "EX",
+            "f": "Toy Machine Cat",
+            "c": "Vendor Cat"
+        },
+        "063": {
+            "rarity": "RR",
+            "f": "Sports Day Cat",
+            "c": "Kidnapper Cats",
+            "s": "Rampage Cats"
+        },
+        "064": {
+            "rarity": "RR",
+            "f": "Swordsman",
+            "c": "Swordsman Johnny"
+        },
+        "065": {
+            "rarity": "RR",
+            "f": "Cow Princess",
+            "c": "Giraffe Princess"
+        },
+        "066": {
+            "rarity": "UR",
+            "f": "PPT48",
+            "c": "Dark PPT48",
+            "s": "PPT46"
+        },
+        "067": {
+            "rarity": "RR",
+            "f": "Li'l Gau",
+            "c": "Li'l Gau Gau",
+            "s": "Crystal Li'l Gau Gau"
+        },
+        "068": {
+            "rarity": "SR",
+            "f": "Reaper",
+            "c": "Reaper 999",
+            "s": "Judgment"
+        },
+        "069": {
+            "rarity": "SR",
+            "f": "Sleeping Beauty Punt",
+            "c": "Sleeping Beauty Punt II",
+            "s": "Oversleeping Beauty Punt"
+        },
+        "070": {
+            "rarity": "RR",
+            "f": "Salaryman Cat",
+            "c": "Grudge Cat",
+            "s": "Ritual Cat"
+        },
+        "071": {
+            "rarity": "UR",
+            "f": "Sanada Yukimura",
+            "c": "Wargod Yukimura",
+            "s": "Immortal Yukimura"
+        },
+        "072": {
+            "rarity": "UR",
+            "f": "Maeda Keiji",
+            "c": "Wargod Keiji",
+            "s": "Immortal Keiji"
+        },
+        "073": {
+            "rarity": "UR",
+            "f": "Oda Nobunaga",
+            "c": "Wargod Nobunaga",
+            "s": "Immortal Nobunaga",
+            "u": "Phantasmal Nobunaga"
+        },
+        "074": {
+            "rarity": "RR",
+            "f": "Reindeer Fish Cat",
+            "c": "Sashimi Cat",
+            "s": "Xmas Pudding Cat"
+        },
+        "075": {
+            "rarity": "UR",
+            "f": "Windy",
+            "c": "Windy, type \u03b1",
+            "s": "Divine Windy",
+            "u": "Ultimate Windy"
+        },
+        "076": {
+            "rarity": "UR",
+            "f": "Thundia",
+            "c": "Thundia, type \u03b2",
+            "s": "Divine Thundia",
+            "u": "076-4"
+        },
+        "077": {
+            "rarity": "RR",
+            "f": "Droid Cat",
+            "c": "Droid Cat Mk 2",
+            "s": "SpringDroid"
+        },
+        "078": {
+            "rarity": "RR",
+            "f": "Space Cat",
+            "c": "Major Space Cat",
+            "s": "Space Marine Cat"
+        },
+        "079": {
+            "rarity": "RR",
+            "f": "Adult Cat",
+            "c": "Sick Cat",
+            "s": "Prisoner Cat"
+        },
+        "080": {
+            "rarity": "RR",
+            "f": "Evil Cat",
+            "c": "Gentleman Cat",
+            "s": "Gentleman Bros."
+        },
+        "081": {
+            "rarity": "RR",
+            "f": "Doll Cats",
+            "c": "Cat-o-tron",
+            "s": "Nyalladin"
+        },
+        "082": {
+            "rarity": "EX",
+            "f": "Blue Shinobi",
+            "c": "Orange Shinobi"
+        },
+        "083": {
+            "rarity": "UR",
+            "f": "Sodom",
+            "c": "Earth King Sodom",
+            "s": "God-Emperor Sodom"
+        },
+        "084": {
+            "rarity": "UR",
+            "f": "Megidora",
+            "c": "Holy Dragon Megidora",
+            "s": "God-Emperor Megidora"
+        },
+        "085": {
+            "rarity": "UR",
+            "f": "Vars",
+            "c": "Dragon King Vars",
+            "s": "God-Emperor Vars"
+        },
+        "086": {
+            "rarity": "UR",
+            "f": "Kamukura",
+            "c": "God Dragon Kamukura",
+            "s": "God-Emperor Kamukura"
+        },
+        "087": {
+            "rarity": "UR",
+            "f": "Raiden",
+            "c": "Dragonslayer Raiden",
+            "s": "God-Emperor Raiden"
+        },
+        "088": {
+            "rarity": "RR",
+            "f": "Rope Jump Cat",
+            "c": "Pair Rope Jump Cat",
+            "s": "Noodle Cats"
+        },
+        "089": {
+            "rarity": "UR",
+            "f": "Nimue",
+            "c": "Neutralization Type Nimue"
+        },
+        "090": {
+            "rarity": "UR",
+            "f": "Monkey King",
+            "c": "SSS Monkey King"
+        },
+        "091": {
+            "rarity": "SR",
+            "f": "Crazed Cat",
+            "c": "Crazed Macho Cat",
+            "s": "Manic Mohawk Cat"
+        },
+        "092": {
+            "rarity": "SR",
+            "f": "Crazed Tank Cat",
+            "c": "Crazed Wall Cat",
+            "s": "Manic Eraser Cat"
+        },
+        "093": {
+            "rarity": "SR",
+            "f": "Crazed Axe Cat",
+            "c": "Crazed Brave Cat",
+            "s": "Manic Dark Cat"
+        },
+        "094": {
+            "rarity": "SR",
+            "f": "Crazed Gross Cat",
+            "c": "Crazed Sexy Legs Cat",
+            "s": "Manic Macho Legs"
+        },
+        "095": {
+            "rarity": "SR",
+            "f": "Crazed Cow Cat",
+            "c": "Crazed Giraffe Cat",
+            "s": "Manic Lion Cat"
+        },
+        "096": {
+            "rarity": "SR",
+            "f": "Crazed Bird Cat",
+            "c": "Crazed UFO Cat",
+            "s": "Manic Flying Cat"
+        },
+        "097": {
+            "rarity": "SR",
+            "f": "Crazed Fish Cat",
+            "c": "Crazed Whale Cat",
+            "s": "Manic Island Cat"
+        },
+        "098": {
+            "rarity": "SR",
+            "f": "Crazed Lizard Cat",
+            "c": "Crazed Dragon Cat",
+            "s": "Manic King Dragon"
+        },
+        "099": {
+            "rarity": "SR",
+            "f": "Crazed Titan Cat",
+            "c": "Crazed M. Titan Cat",
+            "s": "Manic Jamiera Cat"
+        },
+        "100": {
+            "rarity": "RR",
+            "f": "Maiden Cat",
+            "c": "Sportsgirl Cat",
+            "s": "Wrestling Cat"
+        },
+        "101": {
+            "rarity": "EX",
+            "f": "Clone Elle",
+            "c": "Clone Elle CC"
+        },
+        "102": {
+            "rarity": "EX",
+            "f": "Red Marron",
+            "c": "Red Marron CC"
+        },
+        "103": {
+            "rarity": "EX",
+            "f": "Cabaret Cat",
+            "c": "Mega Cat",
+            "s": "Mega Cat EX"
+        },
+        "104": {
+            "rarity": "RR",
+            "f": "Koi Cat",
+            "c": "Gross Koi Cat",
+            "s": "Kiss and Koi"
+        },
+        "105": {
+            "rarity": "UR",
+            "f": "Kuu",
+            "c": "Kuu, type \u03b3",
+            "s": "Divine Kuu"
+        },
+        "106": {
+            "rarity": "UR",
+            "f": "Kai",
+            "c": "Kai, type \u03bc",
+            "s": "Divine Kai"
+        },
+        "107": {
+            "rarity": "UR",
+            "f": "Coppermine",
+            "c": "Coppermine, type \u03ba",
+            "s": "Divine Coppermine"
+        },
+        "108": {
+            "rarity": "EX",
+            "f": "Cat Bros",
+            "c": "Secret Base"
+        },
+        "109": {
+            "rarity": "RR",
+            "f": "Madam Bride",
+            "c": "Madam King",
+            "s": "Madam the Savannah"
+        },
+        "110": {
+            "rarity": "RR",
+            "f": "Celesse",
+            "c": "Celesse CC"
+        },
+        "111": {
+            "rarity": "RR",
+            "f": "Nono",
+            "c": "Nono CC",
+            "s": "Frolicking Nono CC"
+        },
+        "112": {
+            "rarity": "RR",
+            "f": "Olga",
+            "c": "Olga CC"
+        },
+        "113": {
+            "rarity": "RR",
+            "f": "Norn",
+            "c": "Norn CC"
+        },
+        "114": {
+            "rarity": "RR",
+            "f": "Yoichi",
+            "c": "Yoichi CC"
+        },
+        "115": {
+            "rarity": "RR",
+            "f": "Serum",
+            "c": "Serum CC"
+        },
+        "116": {
+            "rarity": "RR",
+            "f": "Fuu",
+            "c": "Fuu CC"
+        },
+        "117": {
+            "rarity": "SR",
+            "f": "Aura",
+            "c": "Aura CC"
+        },
+        "118": {
+            "rarity": "SR",
+            "f": "Rei",
+            "c": "Rei CC"
+        },
+        "119": {
+            "rarity": "UR",
+            "f": "Wyvern",
+            "c": "Wyvern Cat",
+            "s": "Wyvern and Alec"
+        },
+        "120": {
+            "rarity": "EX",
+            "f": "Healer",
+            "c": "Healer CC",
+            "s": "Healer Cat CC"
+        },
+        "121": {
+            "rarity": "EX",
+            "f": "Merc",
+            "c": "Merc CC",
+            "s": "Merc & Cat CC"
+        },
+        "122": {
+            "rarity": "RR",
+            "f": "Vacation Queen",
+            "c": "Office Lady Cat",
+            "s": "Call Center Cat"
+        },
+        "123": {
+            "rarity": "EX",
+            "f": "Bean Cats",
+            "c": "Brah Cats",
+            "s": "Val Val Cat"
+        },
+        "124": {
+            "rarity": "UR",
+            "f": "Date Masamune",
+            "c": "Wargod Masamune",
+            "s": "Immortal Masamune"
+        },
+        "125": {
+            "rarity": "UR",
+            "f": "Takeda Shingen",
+            "c": "Wargod Shingen",
+            "s": "Immortal Shingen"
+        },
+        "126": {
+            "rarity": "RR",
+            "f": "Clockwork Cat",
+            "c": "Puppetmaster Cat",
+            "s": "Puppetmaster & Charley"
+        },
+        "127": {
+            "rarity": "EX",
+            "f": "Flower Cat",
+            "c": "Cooldown Cat",
+            "s": "Bombercat"
+        },
+        "128": {
+            "rarity": "RR",
+            "f": "Vengeful Cat",
+            "c": "Groucho Cat",
+            "s": "Kite Cat"
+        },
+        "129": {
+            "rarity": "SR",
+            "f": "Gold Cat",
+            "c": "Gold Macho Cat",
+            "s": "Glittering Macho Cat"
+        },
+        "130": {
+            "rarity": "EX",
+            "f": "Ururun Wolf",
+            "c": "Ururun Cat",
+            "s": "Awakened Ururun"
+        },
+        "131": {
+            "rarity": "SR",
+            "f": "Neneko",
+            "c": "Miss NENEKO"
+        },
+        "132": {
+            "rarity": "RR",
+            "f": "Kung Fu Cat X",
+            "c": "Drunken Master Cat X",
+            "s": "Iron Claw X"
+        },
+        "133": {
+            "rarity": "EX",
+            "f": "Hikakin",
+            "c": "Bikyakin",
+            "s": "Mukyakin"
+        },
+        "134": {
+            "rarity": "UR",
+            "f": "Urashima Taro",
+            "c": "Guardian Gamereon",
+            "s": "King Gamereon"
+        },
+        "135": {
+            "rarity": "UR",
+            "f": "The Grateful Crane",
+            "c": "Super Galaxy Cosmo",
+            "s": "Ultima Galaxy Cosmo",
+            "u": "Supernova Cosmo"
+        },
+        "136": {
+            "rarity": "UR",
+            "f": "Momotaro",
+            "c": "The Peach Angels",
+            "s": "The Peach Devils"
+        },
+        "137": {
+            "rarity": "UR",
+            "f": "Kasa Jizo",
+            "c": "Jizo's Moving Castle",
+            "s": "Jizo's Mega-Castle"
+        },
+        "138": {
+            "rarity": "UR",
+            "f": "Princess Kaguya",
+            "c": "The Death Moon",
+            "s": "The Chaos Moon",
+            "u": "Ultra Kaguya"
+        },
+        "139": {
+            "rarity": "EX",
+            "f": "Nekondo",
+            "c": "Nekondo HG",
+            "s": "Nekondo SP"
+        },
+        "140": {
+            "rarity": "EX",
+            "f": "Squish Ball Cat",
+            "c": "Muscleman Cat"
+        },
+        "141": {
+            "rarity": "EX",
+            "f": "God",
+            "c": "Secret God"
+        },
+        "142": {
+            "rarity": "EX",
+            "f": "Tutorial Cat",
+            "c": "Behind Tutorial"
+        },
+        "143": {
+            "rarity": "UR",
+            "f": "Nurse Cat",
+            "c": "Heartful Nurse Cat",
+            "s": "Joyful Nurse Cat"
+        },
+        "144": {
+            "rarity": "SR",
+            "f": "Cat Base Mini",
+            "c": "Cat Base Jr.",
+            "s": "Cat Base Ultra"
+        },
+        "145": {
+            "rarity": "RR",
+            "f": "Cat Gunslinger",
+            "c": "Cat Eastwood",
+            "s": "Rodeo Cat"
+        },
+        "146": {
+            "rarity": "RR",
+            "f": "Stilts Cat",
+            "c": "Totem Cat",
+            "s": "Acrobat Cats"
+        },
+        "147": {
+            "rarity": "RR",
+            "f": "Tin Cat",
+            "c": "Plane Cat",
+            "s": "Robocat"
+        },
+        "148": {
+            "rarity": "RR",
+            "f": "Rocker Cat",
+            "c": "Artist Cat",
+            "s": "Ramen Cat"
+        },
+        "149": {
+            "rarity": "RR",
+            "f": "Mer-Cat",
+            "c": "Commando Cat",
+            "s": "Cameraman Cat"
+        },
+        "150": {
+            "rarity": "SR",
+            "f": "Juliet Cat",
+            "c": "Princess Juliet Cat",
+            "s": "Juliet the Maiko"
+        },
+        "151": {
+            "rarity": "SR",
+            "f": "Weightlifter Cat",
+            "c": "Ring Girl Cat",
+            "s": "Pizza Cat"
+        },
+        "152": {
+            "rarity": "SR",
+            "f": "Figure Skating Cats",
+            "c": "Drama Cats",
+            "s": "Slapstick Cats"
+        },
+        "153": {
+            "rarity": "SR",
+            "f": "Cat Toaster",
+            "c": "Cat Projector",
+            "s": "Catophone"
+        },
+        "154": {
+            "rarity": "RR",
+            "f": "Hoop Cat",
+            "c": "Showoff Cat",
+            "s": "Hoopmaster Cat"
+        },
+        "155": {
+            "rarity": "UR",
+            "f": "Chicken Cat",
+            "c": "Rooster Cat"
+        },
+        "156": {
+            "rarity": "RR",
+            "f": "Dragon League Swordsman",
+            "c": "Dragon League Witch"
+        },
+        "157": {
+            "rarity": "EX",
+            "f": "Nubobo",
+            "c": "Gorubo"
+        },
+        "158": {
+            "rarity": "UR",
+            "f": "Uesugi Kenshin",
+            "c": "Wargod Kenshin",
+            "s": "Immortal Kenshin",
+            "u": "Hellrider Kenshin"
+        },
+        "159": {
+            "rarity": "UR",
+            "f": "Kalisa",
+            "c": "Kalisa, type \u03c7",
+            "s": "Divine Kalisa"
+        },
+        "160": {
+            "rarity": "SR",
+            "f": "Yurinchi",
+            "c": "Phoenix Yurinchi",
+            "s": "Gekirinchi"
+        },
+        "161": {
+            "rarity": "UR",
+            "f": "Crazed Princess Punt",
+            "c": "Crazed Princess Punt CC",
+            "s": "Manic Princess Punt"
+        },
+        "162": {
+            "rarity": "EX",
+            "f": "Sho Ayanokoji",
+            "c": "Shoyan & Cat"
+        },
+        "163": {
+            "rarity": "EX",
+            "f": "Hikaru Saotome",
+            "c": "Hikaru & Cat"
+        },
+        "164": {
+            "rarity": "EX",
+            "f": "Hitomi Saionji",
+            "c": "Tommy & Cat"
+        },
+        "165": {
+            "rarity": "EX",
+            "f": "Hoshi Grandmarnier",
+            "c": "Ranma & Cat"
+        },
+        "166": {
+            "rarity": "EX",
+            "f": "Shouchikubai Shiratori",
+            "c": "Matsu & Cat"
+        },
+        "167": {
+            "rarity": "RR",
+            "f": "Yankee Cat",
+            "c": "Sukeban Cat"
+        },
+        "168": {
+            "rarity": "UR",
+            "f": "Asiluga",
+            "c": "Asilan Pasalan",
+            "s": "Assassinlan Pasalan"
+        },
+        "169": {
+            "rarity": "UR",
+            "f": "Kubiluga",
+            "c": "Kubilan Pasalan",
+            "s": "E. Kubilan Pasalan"
+        },
+        "170": {
+            "rarity": "UR",
+            "f": "Tecoluga",
+            "c": "Tesalan Pasalan",
+            "s": "Lufalan Pasalan"
+        },
+        "171": {
+            "rarity": "UR",
+            "f": "Balaluga",
+            "c": "Balalan Pasalan",
+            "s": "Piccolan Pasalan"
+        },
+        "172": {
+            "rarity": "EX",
+            "f": "Li'l Nyandam",
+            "c": "Dark Emperor Catdam",
+            "s": "Schoolbus Nyandam"
+        },
+        "173": {
+            "rarity": "SR",
+            "f": "Baby Mola",
+            "c": "Young Man Mola",
+            "s": "Citizen Mola"
+        },
+        "174": {
+            "rarity": "UR",
+            "f": "Mola King",
+            "c": "Living Legend",
+            "s": "Master of the Pacific"
+        },
+        "175": {
+            "rarity": "EX",
+            "f": "Meowla Meowla",
+            "c": "Catorpedo"
+        },
+        "176": {
+            "rarity": "RR",
+            "f": "Marshmallow Cat",
+            "c": "Creepmallow"
+        },
+        "177": {
+            "rarity": "UR",
+            "f": "Dioramos",
+            "c": "Archdragon Dioramos",
+            "s": "God-Emperor Dioramos",
+            "u": "Ascendant Dioramos"
+        },
+        "178": {
+            "rarity": "EX",
+            "f": "Mob Cat",
+            "c": "Yakuza Vampire"
+        },
+        "179": {
+            "rarity": "RR",
+            "f": "Takuya & Yuki",
+            "c": "Takuya, Yuki & Cat",
+            "s": "Takuya & Lovely Yuki"
+        },
+        "180": {
+            "rarity": "UR",
+            "f": "Mystery Girl Yuki",
+            "c": "Mystery Yuki & Cat",
+            "s": "Mystery Catgirl Yuki"
+        },
+        "181": {
+            "rarity": "EX",
+            "f": "Yuki Cat",
+            "c": "Lovely Yuki Cat"
+        },
+        "182": {
+            "rarity": "EX",
+            "f": "Cuckoo Crew 12",
+            "c": "Cuckoo Crew 12+1"
+        },
+        "183": {
+            "rarity": "RR",
+            "f": "Cat Kart R",
+            "c": "Cat Kart G",
+            "s": "Cat Kart P"
+        },
+        "184": {
+            "rarity": "EX",
+            "f": "Mr. Ninja",
+            "c": "Mint"
+        },
+        "185": {
+            "rarity": "UR",
+            "f": "Hearscht",
+            "c": "Hearscht CC",
+            "s": "Revolutionary Hearscht CC"
+        },
+        "186": {
+            "rarity": "UR",
+            "f": "Cornelia",
+            "c": "Cornelia CC"
+        },
+        "187": {
+            "rarity": "UR",
+            "f": "Juvens",
+            "c": "Juvens CC",
+            "s": "Holiday Juvens CC"
+        },
+        "188": {
+            "rarity": "UR",
+            "f": "Mystica",
+            "c": "Mystica CC",
+            "s": "Savior Mystica CC"
+        },
+        "189": {
+            "rarity": "SR",
+            "f": "Alois",
+            "c": "Alois CC"
+        },
+        "190": {
+            "rarity": "SR",
+            "f": "Citrouille",
+            "c": "Citrouille CC"
+        },
+        "191": {
+            "rarity": "EX",
+            "f": "Titi",
+            "c": "Titi CC",
+            "s": "Titi Cat CC"
+        },
+        "192": {
+            "rarity": "EX",
+            "f": "Yamaoka Minori",
+            "c": "Queen Minori"
+        },
+        "193": {
+            "rarity": "EX",
+            "f": "Nakamura Kanae",
+            "c": "Queen Kanae"
+        },
+        "194": {
+            "rarity": "UR",
+            "f": "Akira",
+            "c": "Shadow Akira",
+            "s": "Inferno Akira"
+        },
+        "195": {
+            "rarity": "UR",
+            "f": "Mekako Saionji",
+            "c": "Dr. Mekako",
+            "s": "Mission Control Mekako"
+        },
+        "196": {
+            "rarity": "UR",
+            "f": "Catman",
+            "c": "Dark Catman",
+            "s": "Ultimate Catman"
+        },
+        "197": {
+            "rarity": "RR",
+            "f": "Psychocat",
+            "c": "Neo Psychocat",
+            "s": "Corrupted Psychocat"
+        },
+        "198": {
+            "rarity": "RR",
+            "f": "Onmyoji Cat",
+            "c": "Magica Cat",
+            "s": "Thaumaturge Cat"
+        },
+        "199": {
+            "rarity": "SR",
+            "f": "Surfer Cat",
+            "c": "Castaway Cat",
+            "s": "Seafarer Cat"
+        },
+        "200": {
+            "rarity": "SR",
+            "f": "Metal Cat",
+            "c": "Metal Macho"
+        },
+        "201": {
+            "rarity": "RR",
+            "f": "Drumcorps Cat",
+            "c": "Banner Cat",
+            "s": "Mochi Cat"
+        },
+        "202": {
+            "rarity": "EX",
+            "f": "Baozi Cat",
+            "c": "Big Baozi"
+        },
+        "203": {
+            "rarity": "UR",
+            "f": "Kachi-Kachi",
+            "c": "Fire Squad Kachiyama",
+            "s": "Kachiyama Assault Brigade"
+        },
+        "204": {
+            "rarity": "EX",
+            "f": "Felyne",
+            "c": "Felyne & Melynx"
+        },
+        "205": {
+            "rarity": "EX",
+            "f": "Sheria - Kirin",
+            "c": "Sheria - KirinX"
+        },
+        "206": {
+            "rarity": "EX",
+            "f": "Rathalos",
+            "c": "Rathalos & Cat"
+        },
+        "207": {
+            "rarity": "EX",
+            "f": "Rathian",
+            "c": "Rathian & Cat"
+        },
+        "208": {
+            "rarity": "EX",
+            "f": "Kirin Cat",
+            "c": "Kirin Cat Kirin"
+        },
+        "209": {
+            "rarity": "EX",
+            "f": "Li'l Cat",
+            "c": "Li'l Macho Cat",
+            "s": "Li'l Mohawk Cat"
+        },
+        "210": {
+            "rarity": "EX",
+            "f": "Li'l Tank Cat",
+            "c": "Li'l Wall Cat",
+            "s": "Li'l Eraser Cat"
+        },
+        "211": {
+            "rarity": "EX",
+            "f": "Li'l Axe Cat",
+            "c": "Li'l Brave Cat",
+            "s": "Li'l Dark Cat"
+        },
+        "212": {
+            "rarity": "UR",
+            "f": "The White Rabbit",
+            "c": "The Black Cat",
+            "s": "The Grey Fox",
+            "u": "The Spectral Cat"
+        },
+        "213": {
+            "rarity": "EX",
+            "f": "Catburger",
+            "c": "Cat Royale",
+            "s": "Value Meal Cat"
+        },
+        "214": {
+            "rarity": "RR",
+            "f": "HYAKUTARO",
+            "c": "HYAKUTARO CC"
+        },
+        "215": {
+            "rarity": "RR",
+            "f": "MARCO",
+            "c": "MARCO CC"
+        },
+        "216": {
+            "rarity": "RR",
+            "f": "TARMA",
+            "c": "TARMA CC"
+        },
+        "217": {
+            "rarity": "RR",
+            "f": "ERI",
+            "c": "ERI CC"
+        },
+        "218": {
+            "rarity": "RR",
+            "f": "FIO",
+            "c": "FIO CC"
+        },
+        "219": {
+            "rarity": "SR",
+            "f": "SV-001",
+            "c": "SV-001 CC"
+        },
+        "220": {
+            "rarity": "SR",
+            "f": "ALLEN O'NEIL",
+            "c": "ALLEN O'NEIL CC"
+        },
+        "221": {
+            "rarity": "RR",
+            "f": "MARS PEOPLE",
+            "c": "MARS PEOPLE CC"
+        },
+        "222": {
+            "rarity": "UR",
+            "f": "HUGE HERMIT",
+            "c": "HUGE HERMIT CC",
+            "s": "GOLDEN HUGE HERMIT CC"
+        },
+        "223": {
+            "rarity": "UR",
+            "f": "JUPITER KING",
+            "c": "JUPITER KING CC",
+            "s": "GOLDEN JUPITER CC"
+        },
+        "224": {
+            "rarity": "UR",
+            "f": "DONALD MORDEN",
+            "c": "GENERAL MORDEN",
+            "s": "GOLDEN MORDEN CC"
+        },
+        "225": {
+            "rarity": "UR",
+            "f": "HI-DO",
+            "c": "HI-DO CC",
+            "s": "HI-DO MK III"
+        },
+        "226": {
+            "rarity": "UR",
+            "f": "Warlock and Pierre",
+            "c": "Dark Merchant Babil",
+            "s": "Mad Doctor Klay"
+        },
+        "227": {
+            "rarity": "RR",
+            "f": "Pumpcat",
+            "c": "Cat O'Lantern",
+            "s": "Harbinger Cat"
+        },
+        "228": {
+            "rarity": "SR",
+            "f": "Gloomy Neneko",
+            "c": "Witchy Neneko",
+            "s": "Costumed Witchy Neneko"
+        },
+        "229": {
+            "rarity": "UR",
+            "f": "Hallowindy",
+            "c": "Hallowindy, type \u03b1"
+        },
+        "230": {
+            "rarity": "UR",
+            "f": "Spooky Thundia",
+            "c": "Spooky Thundia, type \u03b2"
+        },
+        "231": {
+            "rarity": "EX",
+            "f": "Oden",
+            "c": "Oden CC"
+        },
+        "232": {
+            "rarity": "RR",
+            "f": "Junior God of Light - Valkyrie",
+            "c": "Junior God of Light - Valkyrie CC"
+        },
+        "233": {
+            "rarity": "RR",
+            "f": "Junior God Brynhildr",
+            "c": "Junior God Brynhildr CC"
+        },
+        "234": {
+            "rarity": "RR",
+            "f": "Junior God Suruzu",
+            "c": "Junior God Suruzu CC"
+        },
+        "235": {
+            "rarity": "SR",
+            "f": "Goddess of Abundance - Freya",
+            "c": "Goddess of Abundance - Freya CC"
+        },
+        "236": {
+            "rarity": "UR",
+            "f": "God of War - Odin",
+            "c": "God of War - Odin CC"
+        },
+        "237": {
+            "rarity": "SR",
+            "f": "Freshman Cat Jobs",
+            "c": "Prof. Cat Jobs",
+            "s": "Headmaster Cat Jobs"
+        },
+        "238": {
+            "rarity": "SR",
+            "f": "Rich Cat III",
+            "c": "Rich Cat Sr.",
+            "s": "Richest Cat"
+        },
+        "239": {
+            "rarity": "SR",
+            "f": "Sniper the Recruit",
+            "c": "Sniper the Heavy",
+            "s": "Sniper the Deadeye"
+        },
+        "240": {
+            "rarity": "UR",
+            "f": "Togeluga",
+            "c": "Togelan Pasalan",
+            "s": "Shishilan Pasalan"
+        },
+        "241": {
+            "rarity": "UR",
+            "f": "Frosty Kai",
+            "c": "Frosty Kai, type \u03bc",
+            "s": "Frostspirit Kai, type \u03bc"
+        },
+        "242": {
+            "rarity": "UR",
+            "f": "Santa Kuu",
+            "c": "Santa Kuu, type \u03b3"
+        },
+        "243": {
+            "rarity": "UR",
+            "f": "Holy Coppermine",
+            "c": "Holy Coppermine, type \u03ba"
+        },
+        "244": {
+            "rarity": "RR",
+            "f": "A Gift of Cats",
+            "c": "Cat's Gift"
+        },
+        "245": {
+            "rarity": "EX",
+            "f": "Li'l Gross Cat",
+            "c": "Li'l Sexy Legs Cat",
+            "s": "Li'l Macho Legs Cat"
+        },
+        "246": {
+            "rarity": "EX",
+            "f": "Li'l Cow Cat",
+            "c": "Li'l Giraffe Cat",
+            "s": "Li'l Lion Cat"
+        },
+        "247": {
+            "rarity": "EX",
+            "f": "Li'l Bird Cat",
+            "c": "Li'l UFO Cat",
+            "s": "Li'l Flying Cat"
+        },
+        "248": {
+            "rarity": "EX",
+            "f": "Undead Cat",
+            "c": "Bake-Nyanko",
+            "s": "Extra-Life Cat"
+        },
+        "249": {
+            "rarity": "RR",
+            "f": "Swordsman",
+            "c": "Sailor Swordsman",
+            "s": "Swordsman of the Ming Emperor"
+        },
+        "250": {
+            "rarity": "RR",
+            "f": "Horsemen Cavalry",
+            "c": "Forest Horsemen Cavalry",
+            "s": "Thunderclap Horsemen Cavalry"
+        },
+        "251": {
+            "rarity": "RR",
+            "f": "Ashura",
+            "c": "Warrior Ashura",
+            "s": "Kabukimono Ashura"
+        },
+        "252": {
+            "rarity": "RR",
+            "f": "Battle Balloon",
+            "c": "Pirate Battle Balloon",
+            "s": "Battle Balloon UFO"
+        },
+        "253": {
+            "rarity": "RR",
+            "f": "Dragon Rider",
+            "c": "Horn Dragon Rider",
+            "s": "Flame Dragon Rider"
+        },
+        "254": {
+            "rarity": "RR",
+            "f": "Pretty Cat",
+            "c": "Lovely Pretty Cat",
+            "s": "Cyber Pretty Cat"
+        },
+        "255": {
+            "rarity": "RR",
+            "f": "Cyclops",
+            "c": "Cyclops of Steel",
+            "s": "Cyclops of Time-space"
+        },
+        "256": {
+            "rarity": "EX",
+            "f": "Golem",
+            "c": "Rabbit Golem",
+            "s": "Volcano Golem"
+        },
+        "257": {
+            "rarity": "UR",
+            "f": "Thunder God Zeus",
+            "c": "The Majestic Zeus",
+            "s": "Almighty Zeus"
+        },
+        "258": {
+            "rarity": "UR",
+            "f": "Anubis the Protector",
+            "c": "Anubis the Unblemished",
+            "s": "Almighty Anubis"
+        },
+        "259": {
+            "rarity": "UR",
+            "f": "Radiant Aphrodite",
+            "c": "Megaphrodite",
+            "s": "Almighty Aphrodite"
+        },
+        "260": {
+            "rarity": "SR",
+            "f": "Catway",
+            "c": "Drone Cat",
+            "s": "Time Traveller Cat"
+        },
+        "261": {
+            "rarity": "UR",
+            "f": "Hayabusa",
+            "c": "Oni Hayabusa",
+            "s": "Akuma Hayabusa"
+        },
+        "262": {
+            "rarity": "EX",
+            "f": "Nyamusu",
+            "c": "Neko Nyamusu"
+        },
+        "263": {
+            "rarity": "EX",
+            "f": "Pochi",
+            "c": "Tank Pochi"
+        },
+        "264": {
+            "rarity": "EX",
+            "f": "Kuromi",
+            "c": "Kuromi and Cats"
+        },
+        "265": {
+            "rarity": "EX",
+            "f": "Setsuko",
+            "c": "Setsuko Love Mackerel"
+        },
+        "266": {
+            "rarity": "EX",
+            "f": "Nebaaru-kun",
+            "c": "Nebaaru-kun and Cat"
+        },
+        "267": {
+            "rarity": "SR",
+            "f": "Catornado",
+            "c": "Hurricat",
+            "s": "Catyphoon"
+        },
+        "268": {
+            "rarity": "EX",
+            "f": "Red Riding Mina",
+            "c": "Crimson Mina",
+            "s": "Awakened Mina"
+        },
+        "269": {
+            "rarity": "UR",
+            "f": "Baby Gao",
+            "c": "Mighty Lord Gao"
+        },
+        "270": {
+            "rarity": "UR",
+            "f": "Crazed Yuki",
+            "c": "Crazed Yuki & Cat",
+            "s": "Crazed Catgirl Yuki"
+        },
+        "271": {
+            "rarity": "UR",
+            "f": "Shining Amaterasu",
+            "c": "Glorious Amaterasu",
+            "s": "Almighty Amaterasu"
+        },
+        "272": {
+            "rarity": "UR",
+            "f": "Splendid Ganesha",
+            "c": "Exalted Ganesha",
+            "s": "Almighty Ganesha"
+        },
+        "273": {
+            "rarity": "SR",
+            "f": "Cheerleader Cat",
+            "c": "Waitress Cat",
+            "s": "Soba Cat"
+        },
+        "274": {
+            "rarity": "UR",
+            "f": "Tropical Kalisa",
+            "c": "Tropical Kalisa, type X"
+        },
+        "275": {
+            "rarity": "UR",
+            "f": "Midsummer Rabbit",
+            "c": "Midsummer Cat"
+        },
+        "276": {
+            "rarity": "SR",
+            "f": "Sunny Neneko",
+            "c": "Seaside Neneko",
+            "s": "Early Summer Neneko"
+        },
+        "277": {
+            "rarity": "RR",
+            "f": "Funghi",
+            "c": "Funghi 'n' Cat"
+        },
+        "278": {
+            "rarity": "EX",
+            "f": "Tanky",
+            "c": "Tanky 'n' Cat"
+        },
+        "279": {
+            "rarity": "EX",
+            "f": "White Cat",
+            "c": "Gross White Cat"
+        },
+        "280": {
+            "rarity": "EX",
+            "f": "Fortressy",
+            "c": "Castley"
+        },
+        "281": {
+            "rarity": "RR",
+            "f": "Futenyan",
+            "c": "Massaging Futenyan"
+        },
+        "282": {
+            "rarity": "RR",
+            "f": "Awa-Odori Cat",
+            "c": "So-Ran Cat",
+            "s": "Gorgeous Groovin' Cat"
+        },
+        "283": {
+            "rarity": "UR",
+            "f": "Pai-Pai",
+            "c": "Pai-Pai Z",
+            "s": "Pai-Pai DX"
+        },
+        "284": {
+            "rarity": "SR",
+            "f": "Express Cat",
+            "c": "Maglev Cat",
+            "s": "Bullet Train Cat"
+        },
+        "285": {
+            "rarity": "EX",
+            "f": "Crazed Baozi Cat",
+            "c": "Crazed Big Baozi Cat"
+        },
+        "286": {
+            "rarity": "UR",
+            "f": "Strike Unit R.E.I.",
+            "c": "Assault Unit R.E.I.",
+            "s": "Flight Unit R.E.I."
+        },
+        "287": {
+            "rarity": "SR",
+            "f": "Little Leaguer Cat",
+            "c": "Major Leaguer Cat",
+            "s": "Golfer Cat"
+        },
+        "288": {
+            "rarity": "UR",
+            "f": "Madoka Kaname",
+            "c": "Madoka & Cat",
+            "s": "Ultimate Madoka"
+        },
+        "289": {
+            "rarity": "UR",
+            "f": "Homura Akemi",
+            "c": "Homura & Cat",
+            "s": "Devil Homura"
+        },
+        "290": {
+            "rarity": "UR",
+            "f": "Sayaka Miki",
+            "c": "Sayaka & Cat"
+        },
+        "291": {
+            "rarity": "UR",
+            "f": "Mami Tomoe",
+            "c": "Mami & Cat"
+        },
+        "292": {
+            "rarity": "UR",
+            "f": "Kyoko Sakura",
+            "c": "Kyoko & Cat"
+        },
+        "293": {
+            "rarity": "SR",
+            "f": "Kyubey",
+            "c": "Kyubey & Cat"
+        },
+        "294": {
+            "rarity": "RR",
+            "f": "Madoka Cat",
+            "c": "Magical Girl Madoka Cat"
+        },
+        "295": {
+            "rarity": "RR",
+            "f": "Homura Cat",
+            "c": "Magical Girl Homura Cat"
+        },
+        "296": {
+            "rarity": "RR",
+            "f": "Sayaka Cat",
+            "c": "Magical Girl Sayaka Cat"
+        },
+        "297": {
+            "rarity": "RR",
+            "f": "Mami Cat",
+            "c": "Magical Girl Mami Cat"
+        },
+        "298": {
+            "rarity": "RR",
+            "f": "Kyoko Cat",
+            "c": "Magical Girl Kyoko Cat"
+        },
+        "299": {
+            "rarity": "RR",
+            "f": "Li'l Madoka",
+            "c": "Li'l Magical Girl Madoka",
+            "s": "Li'l Ultimate Madoka"
+        },
+        "300": {
+            "rarity": "EX",
+            "f": "Li'l Homura",
+            "c": "Li'l Magical Girl Homura",
+            "s": "Li'l Devil Homura"
+        },
+        "301": {
+            "rarity": "RR",
+            "f": "Kyubey Cat",
+            "c": "Tank Kyubey Cat"
+        },
+        "302": {
+            "rarity": "UR",
+            "f": "Lilith Cat",
+            "c": "Succubus Cat",
+            "s": "Queen Succubus Cat"
+        },
+        "303": {
+            "rarity": "RR",
+            "f": "Food Stall Cat",
+            "c": "Delivery Cat",
+            "s": "Cafeteria Cat"
+        },
+        "304": {
+            "rarity": "UR",
+            "f": "Mighty Kat-A-Pult",
+            "c": "CAT-6 Siege Engine",
+            "s": "CAT-8 Behemoth",
+            "u": "CAT-10 Gigapult"
+        },
+        "305": {
+            "rarity": "UR",
+            "f": "Mighty Drednot",
+            "c": "B.C.S. Lionheart",
+            "s": "B.C.S. Tigerclaw",
+            "u": "B.C.S. Beartooth"
+        },
+        "306": {
+            "rarity": "UR",
+            "f": "Mighty Bomburr",
+            "c": "NEK-0 Sky Fortress",
+            "s": "NEK-02 Air Citadel"
+        },
+        "307": {
+            "rarity": "SR",
+            "f": "Vaulter Cat",
+            "c": "Polevaulter Cat",
+            "s": "Housewife Cat"
+        },
+        "308": {
+            "rarity": "RR",
+            "f": "Gardener Cat",
+            "c": "Lumbercat",
+            "s": "Weedwacker Cat"
+        },
+        "309": {
+            "rarity": "EX",
+            "f": "Neko Hakase",
+            "c": "Neko Hakase and Cat"
+        },
+        "310": {
+            "rarity": "UR",
+            "f": "Yuletide Nurse",
+            "c": "Yule Knight Nurse",
+            "s": "Xmas Spirit Nurse"
+        },
+        "311": {
+            "rarity": "EX",
+            "f": "Li'l Fish Cat",
+            "c": "Li'l Whale Cat",
+            "s": "Li'l Island Cat"
+        },
+        "312": {
+            "rarity": "EX",
+            "f": "Li'l Lizard Cat",
+            "c": "Li'l Dragon Cat",
+            "s": "Li'l King Dragon Cat"
+        },
+        "313": {
+            "rarity": "EX",
+            "f": "Li'l Titan Cat",
+            "c": "Li'l Mythical Titan",
+            "s": "Li'l Jamiera Cat"
+        },
+        "314": {
+            "rarity": "SR",
+            "f": "Years-End Neneko",
+            "c": "New Year Neneko",
+            "s": "Festive New Year Neneko"
+        },
+        "315": {
+            "rarity": "RR",
+            "f": "PIKOTARO",
+            "c": "NEKOTARO"
+        },
+        "316": {
+            "rarity": "UR",
+            "f": "Wrathful Poseidon",
+            "c": "Valiant Poseidon",
+            "s": "Almighty Poseidon"
+        },
+        "317": {
+            "rarity": "EX",
+            "f": "CPAC",
+            "c": "PPAP"
+        },
+        "318": {
+            "rarity": "UR",
+            "f": "Miko Mitama",
+            "c": "Mitama the Oracle"
+        },
+        "319": {
+            "rarity": "RR",
+            "f": "Killer Cat",
+            "c": "True Killer Cat",
+            "s": "Radical Cat"
+        },
+        "320": {
+            "rarity": "RR",
+            "f": "Hiroshi Mihara",
+            "c": "One Two Three ~ Hara Idols Cat",
+            "s": "Idol Mihara & Cat"
+        },
+        "321": {
+            "rarity": "EX",
+            "f": "Nazousagi",
+            "c": "Miya \u014cd\u014d Rabbit"
+        },
+        "322": {
+            "rarity": "UR",
+            "f": "Sarukani",
+            "c": "Rock Revengers",
+            "s": "The One-Hit Wonders"
+        },
+        "323": {
+            "rarity": "EX",
+            "f": "Miyamoku Musashi",
+            "c": "Heroic Musashi",
+            "s": "Awakened Musashi"
+        },
+        "324": {
+            "rarity": "RR",
+            "f": "Curling Cat",
+            "c": "Zamboney Cat",
+            "s": "Green Shell Cat"
+        },
+        "325": {
+            "rarity": "RR",
+            "f": "Welterweight Cat",
+            "c": "Heavyweight Cat",
+            "s": "Ectoweight Cat"
+        },
+        "326": {
+            "rarity": "UR",
+            "f": "Mobius",
+            "c": "Miraculous Mobius"
+        },
+        "327": {
+            "rarity": "SR",
+            "f": "Belial",
+            "c": "Reckless Belial"
+        },
+        "328": {
+            "rarity": "EX",
+            "f": "Happy 100",
+            "c": "Heartful Happy 100"
+        },
+        "329": {
+            "rarity": "RR",
+            "f": "Eggy Cat",
+            "c": "Easter Cat",
+            "s": "Easter Egg Cat"
+        },
+        "330": {
+            "rarity": "UR",
+            "f": "Springtime Kenshin",
+            "c": "Full-Bloom Kenshin",
+            "s": "Spring Breeze Kenshin"
+        },
+        "331": {
+            "rarity": "UR",
+            "f": "Bunny & Canard",
+            "c": "Disciple Psychoduck",
+            "s": "Malevolent Mad-Duck"
+        },
+        "332": {
+            "rarity": "SR",
+            "f": "Easter Neneko",
+            "c": "Hoppity Neneko",
+            "s": "Blossoming Neneko"
+        },
+        "333": {
+            "rarity": "UR",
+            "f": "Shadow Gao",
+            "c": "Diabolic Gao"
+        },
+        "334": {
+            "rarity": "UR",
+            "f": "Trickster Himeyuri",
+            "c": "Himeyuri Ninetails",
+            "s": "Fox Queen Himeyuri"
+        },
+        "335": {
+            "rarity": "UR",
+            "f": "Sea Maiden Ruri",
+            "c": "Sea Mistress Ruri",
+            "s": "Mer-Queen Ruri"
+        },
+        "336": {
+            "rarity": "UR",
+            "f": "Queen Reika",
+            "c": "Pharaoh Reika",
+            "s": "Eternal Reika"
+        },
+        "337": {
+            "rarity": "UR",
+            "f": "HMS Princess",
+            "c": "HMS Princess CC",
+            "s": "HMS Princess II CC"
+        },
+        "338": {
+            "rarity": "UR",
+            "f": "Imagawa Yoshimoto",
+            "c": "Wargod Yoshimoto",
+            "s": "Immortal Yoshimoto"
+        },
+        "339": {
+            "rarity": "EX",
+            "f": "Iron Wall Cat"
+        },
+        "340": {
+            "rarity": "RR",
+            "f": "Redhead Yuki Cat",
+            "c": "Redhead Lovely Yuki Cat",
+            "s": "Redhead Muscled Yuki Cat"
+        },
+        "341": {
+            "rarity": "UR",
+            "f": "Lost World Yuki",
+            "c": "Lost World Yuki & Cat",
+            "s": "Lost World Catgirl Yuki"
+        },
+        "342": {
+            "rarity": "EX",
+            "f": "Maneki Cat",
+            "c": "Neo Maneki Cat"
+        },
+        "343": {
+            "rarity": "RR",
+            "f": "Slug Jockey Cat",
+            "c": "Slugcat"
+        },
+        "344": {
+            "rarity": "SR",
+            "f": "Orthos",
+            "c": "Orthos CC",
+            "s": "Artist Orthos CC"
+        },
+        "345": {
+            "rarity": "UR",
+            "f": "Michelia",
+            "c": "Michelia CC",
+            "s": "Naptime Michelia CC"
+        },
+        "346": {
+            "rarity": "UR",
+            "f": "Todomeki",
+            "c": "Todomeki CC"
+        },
+        "347": {
+            "rarity": "EX",
+            "f": "Gudetama Cat",
+            "c": "Gude Omelette Cat",
+            "s": "Gudebene Cat"
+        },
+        "348": {
+            "rarity": "RR",
+            "f": "Gudetama Plate",
+            "c": "Gudetama Bacon Plate"
+        },
+        "349": {
+            "rarity": "SR",
+            "f": "Gudegude Pudding",
+            "c": "Gudegude \u00e0 la mode"
+        },
+        "350": {
+            "rarity": "UR",
+            "f": "Nisetama Army",
+            "c": "Nisetama Cat Army"
+        },
+        "351": {
+            "rarity": "UR",
+            "f": "Twinstars",
+            "c": "Twinstars, type \u03a6",
+            "s": "Divine Twinstars"
+        },
+        "352": {
+            "rarity": "EX",
+            "f": "Hermit Cat",
+            "c": "Grandmaster Cat",
+            "s": "Masked Grandmaster Cat"
+        },
+        "353": {
+            "rarity": "RR",
+            "f": "Cat Slave Chocolate",
+            "c": "Cat and Chocolate",
+            "s": "Chocolate Cat"
+        },
+        "354": {
+            "rarity": "UR",
+            "f": "Seashore Kai",
+            "c": "Seashore Kai, type \u03bc"
+        },
+        "355": {
+            "rarity": "UR",
+            "f": "Mighty Rekon Korps",
+            "c": "Orbital Platform Armageddon",
+            "s": "Orbital Annihilator Ragnarok"
+        },
+        "356": {
+            "rarity": "EX",
+            "f": "Nora",
+            "c": "Awakened Nora"
+        },
+        "357": {
+            "rarity": "UR",
+            "f": "Wolfchild Deale",
+            "c": "Wolf Princess Deale",
+            "s": "Jester Queen Deale"
+        },
+        "358": {
+            "rarity": "UR",
+            "f": "Graveflower Verbena",
+            "c": "Verbena the Bride",
+            "s": "Opulent Verbena"
+        },
+        "359": {
+            "rarity": "UR",
+            "f": "Bora",
+            "c": "Bazibon",
+            "s": "Bazibastra",
+            "u": "Bazifenix"
+        },
+        "360": {
+            "rarity": "UR",
+            "f": "Mizli",
+            "c": "Marinmizu",
+            "s": "Mizuririn"
+        },
+        "361": {
+            "rarity": "UR",
+            "f": "Aer",
+            "c": "Erphuan",
+            "s": "Aervanta",
+            "u": "Aervantex"
+        },
+        "362": {
+            "rarity": "UR",
+            "f": "Saber",
+            "c": "Saber CC",
+            "s": "Saber Alter CC"
+        },
+        "363": {
+            "rarity": "UR",
+            "f": "Rin Tohsaka",
+            "c": "Rin Tohsaka CC"
+        },
+        "364": {
+            "rarity": "UR",
+            "f": "Illyasviel",
+            "c": "Illyasviel CC"
+        },
+        "365": {
+            "rarity": "UR",
+            "f": "Archer",
+            "c": "Archer CC"
+        },
+        "366": {
+            "rarity": "UR",
+            "f": "Lancer",
+            "c": "Lancer CC"
+        },
+        "367": {
+            "rarity": "UR",
+            "f": "Rider",
+            "c": "Rider CC"
+        },
+        "368": {
+            "rarity": "UR",
+            "f": "Gilgamesh",
+            "c": "Gilgamesh CC"
+        },
+        "369": {
+            "rarity": "EX",
+            "f": "Saber the Cat",
+            "c": "Heroic Spirit Saber Cat",
+            "s": "Saber Alter Cat"
+        },
+        "370": {
+            "rarity": "RR",
+            "f": "Sakura the Cat",
+            "c": "Apron Sakura Cat",
+            "s": "Dreaming Sakura Cat"
+        },
+        "371": {
+            "rarity": "RR",
+            "f": "Rin the Cat",
+            "c": "Mage Rin Cat"
+        },
+        "372": {
+            "rarity": "RR",
+            "f": "Illya the Cat",
+            "c": "Snow Faerie Illya"
+        },
+        "373": {
+            "rarity": "RR",
+            "f": "Li'l Shirou",
+            "c": "Li'l Shirou CC"
+        },
+        "374": {
+            "rarity": "EX",
+            "f": "Li'l Sakura",
+            "c": "Li'l Sakura CC"
+        },
+        "375": {
+            "rarity": "EX",
+            "f": "Coin Cat",
+            "c": "Macho Coin Cat"
+        },
+        "376": {
+            "rarity": "RR",
+            "f": "Rover Cat",
+            "c": "Rover Cat Mk II",
+            "s": "Catellite"
+        },
+        "377": {
+            "rarity": "SR",
+            "f": "Fencer Cat",
+            "c": "Kendo Cat",
+            "s": "The Kitty of Liberty"
+        },
+        "378": {
+            "rarity": "UR",
+            "f": "Dark Mitama",
+            "c": "Gothic Mitama"
+        },
+        "379": {
+            "rarity": "RR",
+            "f": "Volley Cat",
+            "c": "Ballet Cat",
+            "s": "Curry Cat"
+        },
+        "380": {
+            "rarity": "UR",
+            "f": "D'artanyan",
+            "c": "Meow-sketeer"
+        },
+        "381": {
+            "rarity": "EX",
+            "f": "Farmer Cat",
+            "c": "Harvest Cat"
+        },
+        "382": {
+            "rarity": "RR",
+            "f": "Glass Cat",
+            "c": "Macho Glass Cat",
+            "s": "Macho Crystal Cat"
+        },
+        "383": {
+            "rarity": "EX",
+            "f": "Masked Yulala",
+            "c": "Mystic Yulala",
+            "s": "Spiritual Yulala"
+        },
+        "384": {
+            "rarity": "EX",
+            "f": "Satori Hikami & Cat",
+            "c": "Satori Hikami & Cat CC"
+        },
+        "385": {
+            "rarity": "RR",
+            "f": "Akio Yabe",
+            "c": "Akio Yabe CC",
+            "s": "Akio & Gunder CC"
+        },
+        "386": {
+            "rarity": "RR",
+            "f": "Sairi Nijitani",
+            "c": "Sairi Nijitani CC"
+        },
+        "387": {
+            "rarity": "RR",
+            "f": "Misaki Konno",
+            "c": "Misaki Konno CC"
+        },
+        "388": {
+            "rarity": "RR",
+            "f": "Ren Katagiri",
+            "c": "Ren Katagiri CC"
+        },
+        "389": {
+            "rarity": "RR",
+            "f": "Karin Nekozuka",
+            "c": "Karin Nekozuka CC"
+        },
+        "390": {
+            "rarity": "SR",
+            "f": "Aoi Hayakawa",
+            "c": "Aoi Hayakawa CC",
+            "s": "Baseball Mask \u03b1"
+        },
+        "391": {
+            "rarity": "SR",
+            "f": "Mizuki Tachibana",
+            "c": "Mizuki Tachibana CC",
+            "s": "Baseball Mask \u03b2"
+        },
+        "392": {
+            "rarity": "SR",
+            "f": "Hijiri Rokudo",
+            "c": "Hijiri Rokudo CC",
+            "s": "Baseball Mask \u03b3"
+        },
+        "393": {
+            "rarity": "UR",
+            "f": "Saki Nijima",
+            "c": "Saki Nijima CC",
+            "s": "Samba Saki CC"
+        },
+        "394": {
+            "rarity": "UR",
+            "f": "Subaru Hoshi",
+            "c": "Subaru Hoshi CC",
+            "s": "Dark Subaru CC"
+        },
+        "395": {
+            "rarity": "UR",
+            "f": "Miyabi Oyama",
+            "c": "Miyabi Oyama CC",
+            "s": "Baseball Mask \u03b4"
+        },
+        "396": {
+            "rarity": "UR",
+            "f": "Ganglion",
+            "c": "Ganglion the Ancient",
+            "s": "Ganglion the Unleashed"
+        },
+        "397": {
+            "rarity": "UR",
+            "f": "Sakura Sonic",
+            "c": "Afterschool Sakura",
+            "s": "Sacred Blade Sakura",
+            "u": "Sacred Blade Sakura Z"
+        },
+        "398": {
+            "rarity": "EX",
+            "f": "Honeyto-kun",
+            "c": "Honeyto-kun & Cat"
+        },
+        "399": {
+            "rarity": "RR",
+            "f": "Mentori",
+            "c": "Mentori CC"
+        },
+        "400": {
+            "rarity": "EX",
+            "f": "Imoto",
+            "c": "Imoto CC"
+        },
+        "401": {
+            "rarity": "UR",
+            "f": "Voli",
+            "c": "Volta",
+            "s": "Gigavolta"
+        },
+        "402": {
+            "rarity": "RR",
+            "f": "Shinji & Cat",
+            "c": "Plug Suit Shinji",
+            "s": "Plug Suit Shinji Black"
+        },
+        "403": {
+            "rarity": "EX",
+            "f": "Gendo & Fuyutsuki Cats",
+            "c": "Moon Gendo & Fuyutsuki Cats"
+        },
+        "404": {
+            "rarity": "RR",
+            "f": "Giraffe Unit-01",
+            "c": "Giraffe Unit-02"
+        },
+        "405": {
+            "rarity": "EX",
+            "f": "Kaworu & Cat",
+            "c": "Plug Suit Kaworu",
+            "s": "Moon Kaworu"
+        },
+        "406": {
+            "rarity": "RR",
+            "f": "Rei Cat",
+            "c": "Ayanami Cat (TBC)"
+        },
+        "407": {
+            "rarity": "RR",
+            "f": "Asuka Cat",
+            "c": "Apron Asuka"
+        },
+        "408": {
+            "rarity": "RR",
+            "f": "Mari Cat",
+            "c": "Special Ops Mari"
+        },
+        "409": {
+            "rarity": "SR",
+            "f": "Rei Ayanami",
+            "c": "Plug Suit Rei",
+            "s": "Reunion Li'l Rei"
+        },
+        "410": {
+            "rarity": "SR",
+            "f": "Asuka Langley",
+            "c": "Plug Suit Asuka",
+            "s": "Eyepatch Li'l Asuka"
+        },
+        "411": {
+            "rarity": "SR",
+            "f": "Mari Illustrious",
+            "c": "Plug Suit Mari"
+        },
+        "412": {
+            "rarity": "UR",
+            "f": "Eva Unit-00",
+            "c": "Eva Unit-00 & Cat"
+        },
+        "413": {
+            "rarity": "UR",
+            "f": "Eva Unit-01",
+            "c": "Eva Unit-01 & Cat",
+            "s": "Determined Unit-01 & Cat"
+        },
+        "414": {
+            "rarity": "UR",
+            "f": "Eva Unit-02",
+            "c": "Eva Unit-02 & Cat",
+            "s": "Unit-02, Code 777"
+        },
+        "415": {
+            "rarity": "UR",
+            "f": "Shinji Cat",
+            "c": "Toji & Kensuke Cats"
+        },
+        "416": {
+            "rarity": "UR",
+            "f": "Moon Operators",
+            "c": "NERV Moon"
+        },
+        "417": {
+            "rarity": "UR",
+            "f": "Mighty Thermae D-Lux",
+            "c": "Subterra Guardians",
+            "s": "Subterra Sentinels"
+        },
+        "418": {
+            "rarity": "EX",
+            "f": "Crazed Moneko",
+            "c": "Corrupted Moneko"
+        },
+        "419": {
+            "rarity": "RR",
+            "f": "Pokota",
+            "c": "Pokota CC"
+        },
+        "420": {
+            "rarity": "RR",
+            "f": "Ovis",
+            "c": "Ovis CC"
+        },
+        "421": {
+            "rarity": "RR",
+            "f": "Coco",
+            "c": "Coco CC"
+        },
+        "422": {
+            "rarity": "RR",
+            "f": "Moe Uzumasa & Cat",
+            "c": "Moe Uzumasa & Cat CC"
+        },
+        "423": {
+            "rarity": "RR",
+            "f": "Saki Matsuga & Cat",
+            "c": "Saki Matsuga & Cat CC"
+        },
+        "424": {
+            "rarity": "RR",
+            "f": "Misa Ono & Cat",
+            "c": "Misa Ono & Cat CC"
+        },
+        "425": {
+            "rarity": "EX",
+            "f": "Rei Uzumasa & Cat",
+            "c": "Rei Uzumasa & Cat CC"
+        },
+        "426": {
+            "rarity": "EX",
+            "f": "Mecha-Bun",
+            "c": "Mecha-Bun Mk II",
+            "s": "Ultimate Mecha-Bun"
+        },
+        "427": {
+            "rarity": "UR",
+            "f": "Cat Clan Heroes",
+            "c": "Cat Guild Heroes",
+            "s": "Cat Quest Heroes"
+        },
+        "428": {
+            "rarity": "RR",
+            "f": "Souma Cat",
+            "c": "Stylish Souma Cat"
+        },
+        "429": {
+            "rarity": "SR",
+            "f": "Otaku Geek Cat",
+            "c": "Hacker Geek Cat"
+        },
+        "430": {
+            "rarity": "UR",
+            "f": "Gude-Cat Machine",
+            "c": "Gude-Cat Machine - Egg"
+        },
+        "431": {
+            "rarity": "UR",
+            "f": "Detective Vigler",
+            "c": "Inspector Gabriel",
+            "s": "Section Chief Gravicci",
+            "u": "Arcane Commissioner Gravicci"
+        },
+        "432": {
+            "rarity": "RR",
+            "f": "Betakkuma",
+            "c": "Black Betakkuma"
+        },
+        "433": {
+            "rarity": "EX",
+            "f": "Nekokkuma",
+            "c": "Killer Nekokkuma"
+        },
+        "434": {
+            "rarity": "EX",
+            "f": "White Swordsman Cat",
+            "c": "Black Swordsman Cat"
+        },
+        "435": {
+            "rarity": "UR",
+            "f": "Li'l Valkyrie",
+            "c": "Wind Dancer Valkyrie"
+        },
+        "436": {
+            "rarity": "UR",
+            "f": "Nobiluga",
+            "c": "Nobilan Pasalan",
+            "s": "Mystican Pasalan"
+        },
+        "437": {
+            "rarity": "EX",
+            "f": "Cat God the Great",
+            "c": "Cat God the Awesome",
+            "s": "Cat God the Golden"
+        },
+        "438": {
+            "rarity": "UR",
+            "f": "Waverider Kuu",
+            "c": "Waverider Kuu, type \u03b3"
+        },
+        "439": {
+            "rarity": "UR",
+            "f": "Empress Chronos",
+            "c": "Chronos the Infinite",
+            "s": "Almighty Chronos"
+        },
+        "440": {
+            "rarity": "UR",
+            "f": "Bebe",
+            "c": "Nagisa & Cat",
+            "s": "Law of Cycles Nagisa"
+        },
+        "441": {
+            "rarity": "UR",
+            "f": "D'arktanyan",
+            "c": "Valiant D'arktanyan"
+        },
+        "442": {
+            "rarity": "RR",
+            "f": "Lone Cat and Kitten",
+            "c": "Vendor Cat and Kitten",
+            "s": "Tourist Cat"
+        },
+        "443": {
+            "rarity": "SR",
+            "f": "Driller Cat",
+            "c": "Power Driller Cat",
+            "s": "Neo Driller Cat"
+        },
+        "444": {
+            "rarity": "SR",
+            "f": "Piledriver Cat",
+            "c": "Power Piledriver Cat",
+            "s": "Neo Piledriver Cat"
+        },
+        "445": {
+            "rarity": "SR",
+            "f": "Cutter Cat",
+            "c": "Power Cutter Cat",
+            "s": "Neo Cutter Cat"
+        },
+        "446": {
+            "rarity": "SR",
+            "f": "Backhoe Cat",
+            "c": "Power Backhoe Cat",
+            "s": "Neo Backhoe Cat"
+        },
+        "447": {
+            "rarity": "SR",
+            "f": "Miter Saw Cat",
+            "c": "Power Saw Cat",
+            "s": "Neo Saw Cat"
+        },
+        "448": {
+            "rarity": "LR",
+            "f": "Musashi Miyamoto",
+            "c": "Wargod Miyamoto",
+            "s": "Immortal Miyamoto"
+        },
+        "449": {
+            "rarity": "LR",
+            "f": "Headmistress Jeanne",
+            "c": "Headmistress Jeanne \u03c8"
+        },
+        "450": {
+            "rarity": "LR",
+            "f": "High Lord Babel",
+            "c": "Babel the Darkflame",
+            "s": "God-Emperor Babel"
+        },
+        "451": {
+            "rarity": "LR",
+            "f": "Ushiwakamaru",
+            "c": "Colossal Benkei"
+        },
+        "452": {
+            "rarity": "RR",
+            "f": "Primordial Cat",
+            "c": "Modern Cat",
+            "s": "Future Cat"
+        },
+        "453": {
+            "rarity": "EX",
+            "f": "Kitarou",
+            "c": "GeGeGe no Kitarou"
+        },
+        "454": {
+            "rarity": "EX",
+            "f": "Medama-Oyaji",
+            "c": "Bathing Oyaji"
+        },
+        "455": {
+            "rarity": "LR",
+            "f": "Wonder MOMOCO",
+            "c": "Cutie MOMOCO"
+        },
+        "456": {
+            "rarity": "UR",
+            "f": "Sakura Matou",
+            "c": "Sakura Matou CC",
+            "s": "Dark Sakura CC"
+        },
+        "457": {
+            "rarity": "EX",
+            "f": "Shirou the Cat",
+            "c": "Novice Mage Shirou Cat"
+        },
+        "458": {
+            "rarity": "RR",
+            "f": "Archer the Cat",
+            "c": "Heroic Spirit Archer Cat"
+        },
+        "459": {
+            "rarity": "RR",
+            "f": "Rider the Cat",
+            "c": "Heroic Spirit Rider Cat"
+        },
+        "460": {
+            "rarity": "SR",
+            "f": "Kotomine & Gilgamesh Cats",
+            "c": "Gilgamesh & Kotomine Cats"
+        },
+        "461": {
+            "rarity": "LR",
+            "f": "Legeluga",
+            "c": "Legelan Pasalan"
+        },
+        "462": {
+            "rarity": "EX",
+            "f": "Filibuster Cat X",
+            "c": "Filibuster Cat Y",
+            "s": "Metafilibuster"
+        },
+        "463": {
+            "rarity": "LR",
+            "f": "Mighty Kristul Muu",
+            "c": "Doom Engine Pandora"
+        },
+        "464": {
+            "rarity": "EX",
+            "f": "Dogumaru",
+            "c": "Doguemon",
+            "s": "Reborn Warrior Doguemon"
+        },
+        "465": {
+            "rarity": "RR",
+            "f": "Maji Cat & Cat Tour Group",
+            "c": "Maji Cat & Cat Tour Taiwan"
+        },
+        "466": {
+            "rarity": "LR",
+            "f": "Black Zeus",
+            "c": "Dark Lord Zeus"
+        },
+        "467": {
+            "rarity": "UR",
+            "f": "Super Zeus",
+            "c": "All-Powerful Super Zeus",
+            "s": "Super S-Zeus"
+        },
+        "468": {
+            "rarity": "UR",
+            "f": "Holy Phoenix",
+            "c": "Holy Warrior Phoenix",
+            "s": "Head Rococo"
+        },
+        "469": {
+            "rarity": "UR",
+            "f": "Super Devil",
+            "c": "Imposter Super Devil",
+            "s": "Super D-Devil"
+        },
+        "470": {
+            "rarity": "UR",
+            "f": "Satanmaria",
+            "c": "Wondermaria"
+        },
+        "471": {
+            "rarity": "UR",
+            "f": "Heracrist",
+            "c": "Perfect Heracrist",
+            "s": "Dark Heracrist"
+        },
+        "472": {
+            "rarity": "SR",
+            "f": "Fiendish Nero",
+            "c": "Beastly Nero",
+            "s": "Huge Nero"
+        },
+        "473": {
+            "rarity": "RR",
+            "f": "Prince Yamato",
+            "c": "Holy Yamato",
+            "s": "Rampaging Yamato"
+        },
+        "474": {
+            "rarity": "EX",
+            "f": "Rosary Angel",
+            "c": "Cross Angel",
+            "s": "Strike Angel"
+        },
+        "475": {
+            "rarity": "EX",
+            "f": "Wakamiko Cat",
+            "c": "Warrior King Cat"
+        },
+        "476": {
+            "rarity": "EX",
+            "f": "Cat Devil",
+            "c": "Infernal Cat"
+        },
+        "477": {
+            "rarity": "EX",
+            "f": "Nekonosuke",
+            "c": "Old Guardian Cat"
+        },
+        "478": {
+            "rarity": "LR",
+            "f": "Lumina",
+            "c": "Luminalia"
+        },
+        "479": {
+            "rarity": "EX",
+            "f": "Gummy Cat",
+            "c": "Lucky Cat",
+            "s": "Gummy Cat Soda"
+        },
+        "480": {
+            "rarity": "RR",
+            "f": "Neko-Musume",
+            "c": "Cat Neko-Musume"
+        },
+        "481": {
+            "rarity": "LR",
+            "f": "Doktor Heaven",
+            "c": "Professor Abyss"
+        },
+        "482": {
+            "rarity": "UR",
+            "f": "Benevolent Souma",
+            "c": "Souma & Cat",
+            "s": "Cat-Eared Souma"
+        },
+        "483": {
+            "rarity": "RR",
+            "f": "Kano & Souma",
+            "c": "Kano & Souma & Cat"
+        },
+        "484": {
+            "rarity": "UR",
+            "f": "Li'l Valkyrie Dark",
+            "c": "Dark Rider Valkyrie"
+        },
+        "485": {
+            "rarity": "UR",
+            "f": "Calette",
+            "c": "Calette CC"
+        },
+        "486": {
+            "rarity": "SR",
+            "f": "Hina",
+            "c": "Swordswoman Hina"
+        },
+        "487": {
+            "rarity": "UR",
+            "f": "Eva Unit-08",
+            "c": "Eva Unit-08 & Cat"
+        },
+        "488": {
+            "rarity": "UR",
+            "f": "AAA Wunder",
+            "c": "NNN Wunder",
+            "s": "Vanished NNN Wunder"
+        },
+        "489": {
+            "rarity": "SR",
+            "f": "Misato Katsuragi",
+            "c": "Captain Misato"
+        },
+        "490": {
+            "rarity": "SR",
+            "f": "Ritsuko Akagi",
+            "c": "First Officer Ritsuko"
+        },
+        "491": {
+            "rarity": "SR",
+            "f": "Rei Ayanami (???)",
+            "c": "Awakened Ayanami"
+        },
+        "492": {
+            "rarity": "RR",
+            "f": "HAPPI",
+            "c": "HAPPI & Maji Cat",
+            "s": "HAPPI & Maji Cat & Cat"
+        },
+        "493": {
+            "rarity": "LR",
+            "f": "Gaia the Creator",
+            "c": "Gaia the Supreme"
+        },
+        "494": {
+            "rarity": "UR",
+            "f": "Seabreeze Coppermine",
+            "c": "Seabreeze Coppermine, type \u03ba"
+        },
+        "495": {
+            "rarity": "RR",
+            "f": "Matador Cat",
+            "c": "Flamenco Cat",
+            "s": "Bellydance Cat"
+        },
+        "496": {
+            "rarity": "UR",
+            "f": "Narita Kaihime",
+            "c": "Wargod Kaihime",
+            "s": "Immortal Kaihime"
+        },
+        "497": {
+            "rarity": "EX",
+            "f": "Shakurel Cat",
+            "c": "Shakurel Macho Cat"
+        },
+        "498": {
+            "rarity": "EX",
+            "f": "Shakurel Lion",
+            "c": "Shakurel Lion CC"
+        },
+        "499": {
+            "rarity": "EX",
+            "f": "Shakurel Tiger",
+            "c": "Shakurel Tiger CC"
+        },
+        "500": {
+            "rarity": "EX",
+            "f": "Shakurel Panda",
+            "c": "Shakurel Panda CC"
+        },
+        "501": {
+            "rarity": "RR",
+            "f": "Cat Bros",
+            "c": "Baka Cat Bros"
+        },
+        "502": {
+            "rarity": "UR",
+            "f": "Myrcia",
+            "c": "Myrcia, type \u03be",
+            "s": "Divine Myrcia"
+        },
+        "503": {
+            "rarity": "RR",
+            "f": "2D Cat",
+            "c": "3D Cat"
+        },
+        "504": {
+            "rarity": "EX",
+            "f": "Fatherly Cat (Shopkeeper)",
+            "c": "Fatherly Cat (Active Service)"
+        },
+        "505": {
+            "rarity": "UR",
+            "f": "Relentless Gladios",
+            "c": "Gladios the Annihilator",
+            "s": "God-Emperor Gladios"
+        },
+        "506": {
+            "rarity": "UR",
+            "f": "Eyewaltz",
+            "c": "Eyewaltz CC",
+            "s": "Nameless Eyewaltz CC"
+        },
+        "507": {
+            "rarity": "RR",
+            "f": "Mightycat",
+            "c": "Supercat"
+        },
+        "508": {
+            "rarity": "RR",
+            "f": "Ryu Cat",
+            "c": "Ryu Cat CC"
+        },
+        "509": {
+            "rarity": "EX",
+            "f": "Chun-Li Cat",
+            "c": "Chun-Li Cat CC"
+        },
+        "510": {
+            "rarity": "LR",
+            "f": "Akuma",
+            "c": "Akuma CC"
+        },
+        "511": {
+            "rarity": "UR",
+            "f": "Ryu",
+            "c": "Ryu CC",
+            "s": "Kage"
+        },
+        "512": {
+            "rarity": "UR",
+            "f": "Chun-Li",
+            "c": "Chun-Li CC"
+        },
+        "513": {
+            "rarity": "UR",
+            "f": "Guile",
+            "c": "Guile CC"
+        },
+        "514": {
+            "rarity": "UR",
+            "f": "Zangief",
+            "c": "Zangief CC"
+        },
+        "515": {
+            "rarity": "UR",
+            "f": "Blanka",
+            "c": "Blanka CC"
+        },
+        "516": {
+            "rarity": "UR",
+            "f": "Dhalsim",
+            "c": "Dhalsim CC"
+        },
+        "517": {
+            "rarity": "UR",
+            "f": "Ken",
+            "c": "Ken CC"
+        },
+        "518": {
+            "rarity": "RR",
+            "f": "Akuma Giraffe",
+            "c": "Akuma Lion"
+        },
+        "519": {
+            "rarity": "UR",
+            "f": "Lasvoss",
+            "c": "Ultimate Lasvoss",
+            "s": "Lasvoss Reborn"
+        },
+        "520": {
+            "rarity": "SR",
+            "f": "Good-Luck Ebisu",
+            "c": "Bad-Luck Ebisu"
+        },
+        "521": {
+            "rarity": "RR",
+            "f": "Medusa Cat",
+            "c": "Twintail Medusa Cat",
+            "s": "Naga Cat"
+        },
+        "522": {
+            "rarity": "SR",
+            "f": "Nymph Cat",
+            "c": "Medalist Cat",
+            "s": "Fiend Cat"
+        },
+        "523": {
+            "rarity": "RR",
+            "f": "Wushu Cat",
+            "c": "Sifu Cat",
+            "s": "Shigong Cat"
+        },
+        "524": {
+            "rarity": "RR",
+            "f": "Sorakara",
+            "c": "Sorakara & Cat"
+        },
+        "525": {
+            "rarity": "UR",
+            "f": "Kintaro",
+            "c": "Kinrangers RoboForce",
+            "s": "Kinrangers GigaForce"
+        },
+        "526": {
+            "rarity": "UR",
+            "f": "Snow Angel Twinstars",
+            "c": "Snow Angel Twinstars, type \u03a6"
+        },
+        "527": {
+            "rarity": "RR",
+            "f": "Slime Cat",
+            "c": "Jellycat",
+            "s": "Jelly Dumpling Cat"
+        },
+        "528": {
+            "rarity": "RR",
+            "f": "Cossack Cat",
+            "c": "Vodka Cat",
+            "s": "Royal Guard Cat"
+        },
+        "529": {
+            "rarity": "UR",
+            "f": "Kasli the Scourge",
+            "c": "Ritual Saint Kasli"
+        },
+        "530": {
+            "rarity": "UR",
+            "f": "Herme",
+            "c": "Herme CC"
+        },
+        "531": {
+            "rarity": "RR",
+            "f": "Teacher BearCat",
+            "c": "Assassin BearCat",
+            "s": "Cadaver BearCat"
+        },
+        "532": {
+            "rarity": "EX",
+            "f": "Urs & Fenrir",
+            "c": "Urs & Minka",
+            "s": "Awakened Urs"
+        },
+        "533": {
+            "rarity": "UR",
+            "f": "Sharpshooter Saki",
+            "c": "Nighthunter Saki",
+            "s": "Bad Blaster Saki"
+        },
+        "534": {
+            "rarity": "UR",
+            "f": "Hades the Punisher",
+            "c": "Hades the Deathdealer",
+            "s": "Almighty Hades"
+        },
+        "535": {
+            "rarity": "UR",
+            "f": "Hatsune Miku",
+            "c": "Hatsune Miku CC"
+        },
+        "536": {
+            "rarity": "UR",
+            "f": "Sakura Miku",
+            "c": "Sakura Miku CC"
+        },
+        "537": {
+            "rarity": "UR",
+            "f": "Kagamine Rin & Len",
+            "c": "Kagamine Rin & Len CC"
+        },
+        "538": {
+            "rarity": "RR",
+            "f": "Miku Cat",
+            "c": "Miku Cat CC"
+        },
+        "539": {
+            "rarity": "RR",
+            "f": "Rugby Cat",
+            "c": "Quarterback Cat",
+            "s": "Gridiron Cat"
+        },
+        "540": {
+            "rarity": "RR",
+            "f": "U.F.O. Cat",
+            "c": "Yakisoba U.F.O. Cat"
+        },
+        "541": {
+            "rarity": "EX",
+            "f": "Yakisoba Cat",
+            "c": "Splendid!Thick!Big!Cat"
+        },
+        "542": {
+            "rarity": "EX",
+            "f": "Cat Boy",
+            "c": "Cat Student"
+        },
+        "543": {
+            "rarity": "UR",
+            "f": "Kasli the Bane",
+            "c": "Kasli, Daughter of Chaos"
+        },
+        "544": {
+            "rarity": "LR",
+            "f": "Kyosaka Nanaho",
+            "c": "True Kyosaka Nanaho"
+        },
+        "545": {
+            "rarity": "RR",
+            "f": "Phantom Cat",
+            "c": "Miasma Cat",
+            "s": "Bubble Cat"
+        },
+        "546": {
+            "rarity": "UR",
+            "f": "Papaluga",
+            "c": "Papalan Pasalan",
+            "s": "Sukelan Kakulan"
+        },
+        "547": {
+            "rarity": "UR",
+            "f": "Night Oracle Rei",
+            "c": "Heavenly Herald Rei"
+        },
+        "548": {
+            "rarity": "UR",
+            "f": "The 4th Angel",
+            "c": "4th Angel Cat"
+        },
+        "549": {
+            "rarity": "UR",
+            "f": "The 6th Angel",
+            "c": "6th Angel Cat"
+        },
+        "550": {
+            "rarity": "UR",
+            "f": "The 10th Angel",
+            "c": "10th Angel Cat"
+        },
+        "551": {
+            "rarity": "UR",
+            "f": "The 9th Angel",
+            "c": "9th Angel Cat"
+        },
+        "552": {
+            "rarity": "RR",
+            "f": "Kaworu Cat",
+            "c": "Moon Kaworu Cat"
+        },
+        "553": {
+            "rarity": "RR",
+            "f": "Bakery Cat",
+            "c": "Boomerang Cat",
+            "s": "Fried Chicken Cat"
+        },
+        "554": {
+            "rarity": "EX",
+            "f": "Master Uril",
+            "c": "Mystic Uril",
+            "s": "Esoteric Uril"
+        },
+        "555": {
+            "rarity": "UR",
+            "f": "Shaman Khan",
+            "c": "All-Loving Shaman Khan"
+        },
+        "556": {
+            "rarity": "SR",
+            "f": "Holy Knight Alibaba",
+            "c": "Holy King Alibaba",
+            "s": "Ghost Alibaba"
+        },
+        "557": {
+            "rarity": "EX",
+            "f": "Heavenly Jack",
+            "c": "Heavenly Lord Jack"
+        },
+        "558": {
+            "rarity": "EX",
+            "f": "Gacha Cat",
+            "c": "Lucky Gacha Cat"
+        },
+        "559": {
+            "rarity": "UR",
+            "f": "Hell Warden Emma",
+            "c": "Hell Sentinel Emma",
+            "s": "Hell Commissioner Emma"
+        },
+        "560": {
+            "rarity": "UR",
+            "f": "Megurine Luka",
+            "c": "Megurine Luka CC"
+        },
+        "561": {
+            "rarity": "SR",
+            "f": "MEIKO & Cat",
+            "c": "MEIKO & Cat CC"
+        },
+        "562": {
+            "rarity": "RR",
+            "f": "Luka Cat",
+            "c": "Luka Cat CC"
+        },
+        "563": {
+            "rarity": "UR",
+            "f": "Squirtgun Saki",
+            "c": "Aquabuster Saki",
+            "s": "Aquablaster Saki"
+        },
+        "564": {
+            "rarity": "UR",
+            "f": "Summerluga",
+            "c": "Bikinilan Pasalan",
+            "s": "Fabulous Pasalan"
+        },
+        "565": {
+            "rarity": "SR",
+            "f": "Suntan Cat",
+            "c": "Macho Suntan Cat",
+            "s": "Permed Suntan Cat"
+        },
+        "566": {
+            "rarity": "SR",
+            "f": "Lifeguard Cats",
+            "c": "Sweet Bro Cats",
+            "s": "Gelato Bro Cats"
+        },
+        "567": {
+            "rarity": "EX",
+            "f": "Li'l Clops Cat Egg",
+            "c": "Li'l Clops Cat",
+            "s": "Lightning Li'l Clops Cat"
+        },
+        "568": {
+            "rarity": "EX",
+            "f": "Idi:N",
+            "c": "Idi:N2",
+            "s": "Idi:NX"
+        },
+        "569": {
+            "rarity": "UR",
+            "f": "Gravi",
+            "c": "Gravolo",
+            "s": "Gravolodon"
+        },
+        "570": {
+            "rarity": "UR",
+            "f": "Skull Rider Vars",
+            "c": "Nightmare King Vars",
+            "s": "Halloween Knight Vars"
+        },
+        "571": {
+            "rarity": "UR",
+            "f": "E. Honda",
+            "c": "E. Honda CC"
+        },
+        "572": {
+            "rarity": "UR",
+            "f": "Balrog",
+            "c": "Balrog CC"
+        },
+        "573": {
+            "rarity": "UR",
+            "f": "Vega",
+            "c": "Vega CC"
+        },
+        "574": {
+            "rarity": "UR",
+            "f": "Sagat",
+            "c": "Sagat CC"
+        },
+        "575": {
+            "rarity": "UR",
+            "f": "M. Bison",
+            "c": "M. Bison CC"
+        },
+        "576": {
+            "rarity": "SR",
+            "f": "C. Honda",
+            "c": "C. Honda CC"
+        },
+        "577": {
+            "rarity": "RR",
+            "f": "Balrog Cat",
+            "c": "Balrog Cat CC"
+        },
+        "578": {
+            "rarity": "RR",
+            "f": "Vega Cat",
+            "c": "Vega Cat CC"
+        },
+        "579": {
+            "rarity": "RR",
+            "f": "Sagat Cat",
+            "c": "Sagat Cat CC"
+        },
+        "580": {
+            "rarity": "RR",
+            "f": "M. Bison Cat",
+            "c": "M. Bison Cat CC"
+        },
+        "581": {
+            "rarity": "RR",
+            "f": "Stone Cat",
+            "c": "Boulder Cat"
+        },
+        "582": {
+            "rarity": "UR",
+            "f": "Hatsune Miku: MM2020 Osaka",
+            "c": "Hatsune Miku CC: MM2020 Osaka"
+        },
+        "583": {
+            "rarity": "UR",
+            "f": "Hatsune Miku: MM2020 Tokyo",
+            "c": "Hatsune Miku CC: MM2020 Tokyo"
+        },
+        "584": {
+            "rarity": "UR",
+            "f": "Keiji Claus",
+            "c": "Maeda Christmas",
+            "s": "Maeda Christmas DX"
+        },
+        "585": {
+            "rarity": "UR",
+            "f": "Baby Garu",
+            "c": "Mighty Aegis Garu"
+        },
+        "586": {
+            "rarity": "LR",
+            "f": "Emperor Cat",
+            "c": "Tyrant Cat"
+        },
+        "587": {
+            "rarity": "UR",
+            "f": "Sweet Aphrodite",
+            "c": "Chocoladite"
+        },
+        "588": {
+            "rarity": "UR",
+            "f": "First-Love Myrcia",
+            "c": "First-Love Myrcia \u03be"
+        },
+        "589": {
+            "rarity": "SR",
+            "f": "Valentine's Neneko",
+            "c": "Sweetheart Neneko",
+            "s": "True Love Neneko"
+        },
+        "590": {
+            "rarity": "UR",
+            "f": "Snow Miku 2021",
+            "c": "Snow Miku CC 2021"
+        },
+        "591": {
+            "rarity": "SR",
+            "f": "KAITO & Cat",
+            "c": "KAITO & Cat CC"
+        },
+        "592": {
+            "rarity": "RR",
+            "f": "Neko Rin",
+            "c": "Neko Rin CC"
+        },
+        "593": {
+            "rarity": "RR",
+            "f": "Neko Len",
+            "c": "Neko Len CC"
+        },
+        "594": {
+            "rarity": "UR",
+            "f": "Mighty Aethur Ltd.",
+            "c": "Atlantis Logistix",
+            "s": "Ultra Atlantis Logistix"
+        },
+        "595": {
+            "rarity": "UR",
+            "f": "Blooming Kamukura",
+            "c": "Everbloom Kamukura",
+            "s": "Everbloom Lord Kamukura"
+        },
+        "596": {
+            "rarity": "UR",
+            "f": "Ranma Saotome (M)",
+            "c": "Ranma Saotome (F)"
+        },
+        "597": {
+            "rarity": "UR",
+            "f": "Akane Tendo",
+            "c": "Akane Tendo (Gi)"
+        },
+        "598": {
+            "rarity": "UR",
+            "f": "Ryoga Hibiki (Pig)",
+            "c": "Ryoga Hibiki"
+        },
+        "599": {
+            "rarity": "UR",
+            "f": "Shampoo (Cat)",
+            "c": "Shampoo"
+        },
+        "600": {
+            "rarity": "UR",
+            "f": "Mousse (Duck)",
+            "c": "Mousse"
+        },
+        "601": {
+            "rarity": "SR",
+            "f": "Happosai",
+            "c": "Happosai (Lewd)"
+        },
+        "602": {
+            "rarity": "SR",
+            "f": "Ukyo Kuonji (GR)",
+            "c": "Ukyo Kuonji"
+        },
+        "603": {
+            "rarity": "SR",
+            "f": "Tatewaki Kuno (Gi)",
+            "c": "Tatewaki Kuno"
+        },
+        "604": {
+            "rarity": "RR",
+            "f": "Ranma Cat (M)",
+            "c": "Ranma Cat (F)"
+        },
+        "605": {
+            "rarity": "RR",
+            "f": "Akane Cat",
+            "c": "Akane Cat (Gi)"
+        },
+        "606": {
+            "rarity": "EX",
+            "f": "Panda Cat",
+            "c": "Genma Cat"
+        },
+        "607": {
+            "rarity": "UR",
+            "f": "Adventurer Kanna",
+            "c": "Swashbuckler Kanna",
+            "s": "Fabled Adventure Girl Kanna"
+        },
+        "608": {
+            "rarity": "EX",
+            "f": "Wafer Cat",
+            "c": "Wafer Cat XL"
+        },
+        "609": {
+            "rarity": "UR",
+            "f": "Dark Aegis Garu",
+            "c": "Dark Beastlord Garu"
+        },
+        "610": {
+            "rarity": "EX",
+            "f": "Gold Brick Cat",
+            "c": "King Ingot Cat",
+            "s": "King Nekokhamen"
+        },
+        "611": {
+            "rarity": "RR",
+            "f": "Godzilla Cat",
+            "c": "Shin Godzilla Cat"
+        },
+        "612": {
+            "rarity": "UR",
+            "f": "Princess Cat",
+            "c": "Empress Cat"
+        },
+        "613": {
+            "rarity": "EX",
+            "f": "Elder Mask Doron",
+            "c": "Cat Mask Doron",
+            "s": "Awakened Doron"
+        },
+        "614": {
+            "rarity": "UR",
+            "f": "Kaguya of the Coast",
+            "c": "The Southern Sun",
+            "s": "The Southern Sunflare"
+        },
+        "615": {
+            "rarity": "EX",
+            "f": "Kabuto Cat",
+            "c": "Golden Kabuto Cat"
+        },
+        "616": {
+            "rarity": "EX",
+            "f": "Kuwagata Cat",
+            "c": "King Kuwagata Cat"
+        },
+        "617": {
+            "rarity": "UR",
+            "f": "Summoner Satoru",
+            "c": "Dark Summoner Satoru",
+            "s": "Devil Hunter Satoru"
+        },
+        "618": {
+            "rarity": "UR",
+            "f": "Shiro Amakusa",
+            "c": "Wargod Amakusa",
+            "s": "Immortal Amakusa"
+        },
+        "619": {
+            "rarity": "UR",
+            "f": "Lilin",
+            "c": "Lilin \u03c0",
+            "s": "Divine Lilin \u03c0"
+        },
+        "620": {
+            "rarity": "UR",
+            "f": "Hevijak the Wicked",
+            "c": "Wicked King Hevijak",
+            "s": "God-Emperor Hevijak"
+        },
+        "621": {
+            "rarity": "RR",
+            "f": "Aku Researcher",
+            "c": "Evil Aku Researcher",
+            "s": "Cat Researcher"
+        },
+        "622": {
+            "rarity": "EX",
+            "f": "Jagando Jr.",
+            "c": "Lord of Ruin Jagando Jr."
+        },
+        "623": {
+            "rarity": "RR",
+            "f": "Pied Piper Cat",
+            "c": "Komuso Cat",
+            "s": "623-3"
+        },
+        "624": {
+            "rarity": "UR",
+            "f": "Kunio-kun",
+            "c": "Dodgeball Kunio-kun"
+        },
+        "625": {
+            "rarity": "UR",
+            "f": "Furiluga",
+            "c": "Furilan Pasalan",
+            "s": "Ragelan Pasalan"
+        },
+        "626": {
+            "rarity": "EX",
+            "f": "Cat Giraffe Modoki",
+            "c": "Suruma Cat Giraffe Modoki"
+        },
+        "627": {
+            "rarity": "EX",
+            "f": "Catnip Tricky",
+            "c": "Tenma Catnip Tricky"
+        },
+        "628": {
+            "rarity": "EX",
+            "f": "Catnip Dragon",
+            "c": "Famous Catnip Dragon"
+        },
+        "629": {
+            "rarity": "SR",
+            "f": "Brainwashed Cat",
+            "c": "Brainwashed Macho Cat",
+            "s": "Brainwashed Mohawk Cat"
+        },
+        "630": {
+            "rarity": "RR",
+            "f": "Calligraphy Cat",
+            "c": "Tea Master Cat"
+        },
+        "631": {
+            "rarity": "UR",
+            "f": "Yamii",
+            "c": "Yaminoir",
+            "s": "Yaminora"
+        },
+        "632": {
+            "rarity": "UR",
+            "f": "Mighty Deth-Troy-R",
+            "c": "Siege Walker Diabolosa",
+            "s": "Obliterator Diabolosa"
+        },
+        "633": {
+            "rarity": "UR",
+            "f": "Shitakiri Sparrow",
+            "c": "Chunchun Haunters",
+            "s": "Grand Chunchun Haunters"
+        },
+        "634": {
+            "rarity": "UR",
+            "f": "White Knight Cyclops",
+            "c": "Black Knight Kyklops",
+            "s": "Demon Knight Kyklops"
+        },
+        "635": {
+            "rarity": "EX",
+            "f": "Million-Dollar Cat",
+            "c": "Hundred-Million-Dollar Cat"
+        },
+        "636": {
+            "rarity": "SR",
+            "f": "Brainwashed Tank Cat",
+            "c": "Brainwashed Wall Cat",
+            "s": "Brainwashed Eraser Cat"
+        },
+        "637": {
+            "rarity": "EX",
+            "f": "Sora & Cat",
+            "c": "Sora & Cat CC"
+        },
+        "638": {
+            "rarity": "RR",
+            "f": "Nana & Cat",
+            "c": "Nana & Cat CC"
+        },
+        "639": {
+            "rarity": "RR",
+            "f": "Emilia & Cat",
+            "c": "Emilia & Cat CC"
+        },
+        "640": {
+            "rarity": "EX",
+            "f": "Ann & Cat",
+            "c": "Ann & Cat CC"
+        },
+        "641": {
+            "rarity": "UR",
+            "f": "Iz the Dancer",
+            "c": "Iz the Alluring Dancer"
+        },
+        "642": {
+            "rarity": "UR",
+            "f": "Lucifer the Fallen",
+            "c": "Grand Lucifer",
+            "s": "Almighty Lucifer"
+        },
+        "643": {
+            "rarity": "N",
+            "f": "Superfeline",
+            "c": "Superfeline II",
+            "s": "True Superfeline"
+        },
+        "644": {
+            "rarity": "UR",
+            "f": "Sweet Love Mekako",
+            "c": "Bittersweet Mekako",
+            "s": "Minty Love Mekako"
+        },
+        "645": {
+            "rarity": "SR",
+            "f": "Brainwashed Axe Cat",
+            "c": "Brainwashed Brave Cat",
+            "s": "Brainwashed Dark Cat"
+        },
+        "646": {
+            "rarity": "EX",
+            "f": "Firecracker Cat",
+            "c": "Macho Firecracker Cat"
+        },
+        "647": {
+            "rarity": "UR",
+            "f": "Huntress Terun",
+            "c": "Huntress Terun \u03b6",
+            "s": "Divine Huntress Terun \u03b6"
+        },
+        "648": {
+            "rarity": "UR",
+            "f": "Lovestruck Lesser Demon",
+            "c": "Lovestruck Greater Demon"
+        },
+        "649": {
+            "rarity": "UR",
+            "f": "Hattori Hanzo",
+            "c": "Wargod Hanzo",
+            "s": "Immortal Hanzo"
+        },
+        "650": {
+            "rarity": "EX",
+            "f": "Secret Crush Cat",
+            "c": "Girlfriend Cat"
+        },
+        "651": {
+            "rarity": "EX",
+            "f": "Tomboy Lion Cat",
+            "c": "Iron-Masked Lion Cat"
+        },
+        "652": {
+            "rarity": "EX",
+            "f": "Chalkboard Eraser Cat",
+            "c": "Chalkboard Punk Cat"
+        },
+        "653": {
+            "rarity": "EX",
+            "f": "Elder Beast Naala",
+            "c": "Storm Beast Naala",
+            "s": "Awakened Naala"
+        },
+        "654": {
+            "rarity": "SR",
+            "f": "Brainwashed Gross Cat",
+            "c": "Brainwashed Sexy Legs Cat",
+            "s": "Brainwashed Macho Legs Cat"
+        },
+        "655": {
+            "rarity": "UR",
+            "f": "Bliza",
+            "c": "Blizana",
+            "s": "Blizarena"
+        },
+        "656": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N001",
+            "c": "Mystic Egg: N001",
+            "s": "Haniwa Cat"
+        },
+        "657": {
+            "rarity": "UR",
+            "f": "Iz the Dancer of Grief",
+            "c": "Iz the Lady of Mourning"
+        },
+        "658": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N101",
+            "c": "Cinnabar Egg: N101",
+            "s": "Courier Cat"
+        },
+        "659": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N102",
+            "c": "Teal Egg: N102",
+            "s": "Catarzan"
+        },
+        "660": {
+            "rarity": "UR",
+            "f": "Sea Serpent Daliasan",
+            "c": "Sea King Daliasan",
+            "s": "God-Emperor Daliasan"
+        },
+        "661": {
+            "rarity": "UR",
+            "f": "Chronos the Bride",
+            "c": "Wedding Chronos"
+        },
+        "662": {
+            "rarity": "SR",
+            "f": "Brainwashed Cow Cat",
+            "c": "Brainwashed Giraffe Cat",
+            "s": "Brainwashed Lion Cat"
+        },
+        "663": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N103",
+            "c": "Black Egg: N103",
+            "s": "Gas Mask Cat"
+        },
+        "664": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N104",
+            "c": "Green Egg: N104",
+            "s": "Surgeon Cat"
+        },
+        "665": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N201",
+            "c": "Dark Egg: N201",
+            "s": "Exorcist Cat"
+        },
+        "666": {
+            "rarity": "UR",
+            "f": "Night Beach Lilin",
+            "c": "Night Beach Lilin\u03c0"
+        },
+        "667": {
+            "rarity": "SR",
+            "f": "Brainwashed Bird Cat",
+            "c": "Brainwashed UFO Cat",
+            "s": "Brainwashed Flying Cat"
+        },
+        "668": {
+            "rarity": "UR",
+            "f": "Cat Tengu",
+            "c": "Grand Yokai Tengu",
+            "s": "Immortal Master Tengu"
+        },
+        "669": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N003",
+            "c": "Evil Egg: N003",
+            "s": "Cat Cactus"
+        },
+        "670": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N202",
+            "c": "Cinnabar Egg: N202",
+            "s": "Armored Firefly Cat"
+        },
+        "671": {
+            "rarity": "UR",
+            "f": "Ranma Saotome (Leotard)",
+            "c": "Ranma Saotome (Cheer)"
+        },
+        "672": {
+            "rarity": "SR",
+            "f": "Genma Saotome (Panda)",
+            "c": "Genma Saotome"
+        },
+        "673": {
+            "rarity": "UR",
+            "f": "Cheetah Cat"
+        },
+        "674": {
+            "rarity": "UR",
+            "f": "Mighty Carrowsell",
+            "c": "Extraterrestrial Envanz",
+            "s": "Extradimensional Envanz"
+        },
+        "675": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N105",
+            "c": "Teal Egg: N105",
+            "s": "Racquet Cat"
+        },
+        "676": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N106",
+            "c": "Amber Egg: N106",
+            "s": "Mushroom Cat"
+        },
+        "677": {
+            "rarity": "RR",
+            "f": "Osamu Mikumo & Cat",
+            "c": "Osamu Mikumo & Cat CC"
+        },
+        "678": {
+            "rarity": "RR",
+            "f": "Yuma Kuga & Cat",
+            "c": "Yuma Kuga & Cat CC"
+        },
+        "679": {
+            "rarity": "EX",
+            "f": "Chika Amatori & Cat",
+            "c": "Chika Amatori & Cat CC"
+        },
+        "680": {
+            "rarity": "UR",
+            "f": "Sakura",
+            "c": "Sakura CC"
+        },
+        "681": {
+            "rarity": "UR",
+            "f": "Luke",
+            "c": "Luke CC"
+        },
+        "682": {
+            "rarity": "UR",
+            "f": "Spectral Goth Vega",
+            "c": "Illusory Guardian Vega",
+            "s": "Lady of Deception Vega"
+        },
+        "683": {
+            "rarity": "UR",
+            "f": "Count Yukimura",
+            "c": "Nosferatu Yukimura",
+            "s": "Vampiric Yukimura"
+        },
+        "684": {
+            "rarity": "SR",
+            "f": "Brainwashed Fish Cat",
+            "c": "Brainwashed Whale Cat",
+            "s": "Brainwashed Island Cat"
+        },
+        "685": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N004",
+            "c": "Mystic Egg: N004",
+            "s": "Supercar Cat"
+        },
+        "686": {
+            "rarity": "UR",
+            "f": "Goddess of Light Sirius",
+            "c": "Goddess of Sunrise Sirius"
+        },
+        "687": {
+            "rarity": "UR",
+            "f": "Reindeer Terun",
+            "c": "Reindeer Terun\u03b6"
+        },
+        "688": {
+            "rarity": "SR",
+            "f": "Brainwashed Lizard Cat",
+            "c": "Brainwashed Dragon Cat",
+            "s": "Brainwashed King Dragon Cat"
+        },
+        "689": {
+            "rarity": "EX",
+            "f": "Meditation Cat",
+            "c": "Paragon Cat"
+        },
+        "690": {
+            "rarity": "UR",
+            "f": "Child of Destiny Phono",
+            "c": "King of Destiny Phonoa"
+        },
+        "691": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N000",
+            "c": "Elder Egg: N000",
+            "s": "Ape Lord Luza"
+        },
+        "692": {
+            "rarity": "UR",
+            "f": "Issun Boshi",
+            "c": "Oni Landshaker Kozuchimaru",
+            "s": "Oni Battlepod Kozuchimaru"
+        },
+        "693": {
+            "rarity": "UR",
+            "f": "White Butler Vigler",
+            "c": "Black Butler Vigler"
+        },
+        "694": {
+            "rarity": "SR",
+            "f": "Brainwashed Titan Cat",
+            "c": "Brainwashed Mythic Titan",
+            "s": "Brainwashed Jamiera Cat"
+        },
+        "695": {
+            "rarity": "RR",
+            "f": "Killer Tank Cat",
+            "c": "True Killer Tank Cat"
+        },
+        "696": {
+            "rarity": "EX",
+            "f": "Class Rep Cat",
+            "c": "Stealth Class Rep Cat"
+        },
+        "697": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N107",
+            "c": "Violet Egg: N107",
+            "s": "Cat Chief"
+        },
+        "698": {
+            "rarity": "UR",
+            "f": "Thunder Jack",
+            "c": "Bloody Jack"
+        },
+        "699": {
+            "rarity": "UR",
+            "f": "Rabbit Satoru",
+            "c": "Rabbit Champion Satoru"
+        },
+        "700": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N005",
+            "c": "Mystic Egg: N005",
+            "s": "Hitman Cat"
+        },
+        "701": {
+            "rarity": "RR",
+            "f": "Kamen Rider Cat",
+            "c": "Shin Kamen Rider Cat"
+        },
+        "702": {
+            "rarity": "RR",
+            "f": "Cat Godzilla",
+            "c": "Shin Cat Godzilla"
+        },
+        "703": {
+            "rarity": "RR",
+            "f": "Evangelion Cat",
+            "c": "Shin Evangelion Cat"
+        },
+        "704": {
+            "rarity": "RR",
+            "f": "Ultraman Cat",
+            "c": "Shin Ultraman Cat"
+        },
+        "705": {
+            "rarity": "UR",
+            "f": "King of Doom Phono",
+            "c": "King of Extinction Phono"
+        },
+        "706": {
+            "rarity": "SR",
+            "f": "Ancient Egg: N108",
+            "c": "Teal Egg: N108",
+            "s": "Soap Cat"
+        },
+        "707": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N109",
+            "c": "Dark Egg: N109",
+            "s": "Barrel Cat"
+        },
+        "708": {
+            "rarity": "RR",
+            "f": "Jetpack Cat",
+            "c": "Kinjirou Cat"
+        },
+        "709": {
+            "rarity": "UR",
+            "f": "One-Eyed Asuka",
+            "c": "Blue-Eyed Asuka"
+        },
+        "710": {
+            "rarity": "UR",
+            "f": "Eva Unit-13",
+            "c": "Eva Unit-13 & Cat"
+        },
+        "711": {
+            "rarity": "UR",
+            "f": "Betrothed Balaluga",
+            "c": "Betrothed Pasalan"
+        },
+        "712": {
+            "rarity": "UR",
+            "f": "Kaoluga",
+            "c": "Kaoluga Pasalan"
+        },
+        "713": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N203",
+            "c": "Violet Egg: N203",
+            "s": "Clown Cat"
+        },
+        "714": {
+            "rarity": "UR",
+            "f": "Coastal Explorer Kanna",
+            "c": "Deep-Diver Kanna"
+        },
+        "715": {
+            "rarity": "UR",
+            "f": "Mighty Sphinx Korps",
+            "c": "Attack Battalion Convoys"
+        },
+        "716": {
+            "rarity": "SR",
+            "f": "Ancient Egg: N111",
+            "c": "Mystic Egg: N111",
+            "s": "Cop Cat"
+        },
+        "717": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N110",
+            "c": "Amber Egg: N110",
+            "s": "Farmboy Cat"
+        },
+        "718": {
+            "rarity": "RR",
+            "f": "Maize Cat",
+            "c": "Cone Cat"
+        },
+        "719": {
+            "rarity": "UR",
+            "f": "Tekachi",
+            "c": "Tetsukachi"
+        },
+        "720": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N006",
+            "c": "Devil Egg: N006",
+            "s": "Fallen Bear Cat"
+        },
+        "721": {
+            "rarity": "UR",
+            "f": "High School Kingpin Riki",
+            "c": "Dodgeball Riki"
+        },
+        "722": {
+            "rarity": "UR",
+            "f": "Hatsune Miku XVI",
+            "c": "Hatsune Miku XVI CC"
+        },
+        "723": {
+            "rarity": "UR",
+            "f": "Lightmother Aset",
+            "c": "Nefer Aset",
+            "s": "723-3"
+        },
+        "724": {
+            "rarity": "RR",
+            "f": "Ancient Egg: N112",
+            "c": "Mystic Egg: N112",
+            "s": "Cat Egg Pod"
+        },
+        "725": {
+            "rarity": "UR",
+            "f": "Ninja Girl Tomoe",
+            "c": "Gourmand Ninja Girl Tomoe"
+        },
+        "726": {
+            "rarity": "EX",
+            "f": "Medal King Cat",
+            "c": "Great Medal King Cat"
+        },
+        "727": {
+            "rarity": "UR",
+            "f": "SOL DAE ROKKER",
+            "c": "SOL DAE ROKKER CC"
+        },
+        "728": {
+            "rarity": "EX",
+            "f": "Master of Mind Soractes",
+            "c": "Master of Mind Catcrates"
+        },
+        "729": {
+            "rarity": "EX",
+            "f": "Summon 1"
+        },
+        "730": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N204",
+            "c": "Cinnabar Egg: N204",
+            "s": "Lion Dancer Cat"
+        },
+        "731": {
+            "rarity": "LR",
+            "f": "Daybreaker Izanagi",
+            "c": "Dawnbringer Izanagi"
+        },
+        "732": {
+            "rarity": "EX",
+            "f": "Summon 2"
+        },
+        "733": {
+            "rarity": "UR",
+            "f": "Pegasa",
+            "c": "Pegasa \u03bd"
+        },
+        "734": {
+            "rarity": "EX",
+            "f": "Summon 3"
+        },
+        "735": {
+            "rarity": "EX",
+            "f": "Principal Cat",
+            "c": "Midlife Crisis Cat"
+        },
+        "736": {
+            "rarity": "UR",
+            "f": "Frozen Rose Cat",
+            "c": "Arctic Bloom Cat"
+        },
+        "737": {
+            "rarity": "UR",
+            "f": "Floral Kalisa",
+            "c": "Floral Kalisa, type X"
+        },
+        "738": {
+            "rarity": "LR",
+            "f": "Izanami of Dusk",
+            "c": "Izanami of Eventide"
+        },
+        "739": {
+            "rarity": "EX",
+            "f": "Summon 4"
+        },
+        "740": {
+            "rarity": "EX",
+            "f": "Trash Cat",
+            "c": "Mimic Cat"
+        },
+        "741": {
+            "rarity": "UR",
+            "f": "Voluptuous Peony - Daji",
+            "c": "Daji & Cat"
+        },
+        "742": {
+            "rarity": "RR",
+            "f": "Mollyanna Cat",
+            "c": "Mesmerizing Tune - Mollyanna"
+        },
+        "743": {
+            "rarity": "RR",
+            "f": "Madhead",
+            "c": "Madhead Cat"
+        },
+        "744": {
+            "rarity": "EX",
+            "f": "Felix the Cat Duke Cat",
+            "c": "Mercenary Leader Felix Cat"
+        },
+        "745": {
+            "rarity": "EX",
+            "f": "Dotty Cat",
+            "c": "Birthday Dotty Cat"
+        },
+        "746": {
+            "rarity": "UR",
+            "f": "Kenshin Himura",
+            "c": "Kenshin Himura CC"
+        },
+        "747": {
+            "rarity": "UR",
+            "f": "Sanosuke Sagara",
+            "c": "Sanosuke Sagara CC"
+        },
+        "748": {
+            "rarity": "UR",
+            "f": "Aoshi Shinomori",
+            "c": "Aoshi Shinomori CC"
+        },
+        "749": {
+            "rarity": "UR",
+            "f": "Hajime Saito",
+            "c": "Hajime Saito CC"
+        },
+        "750": {
+            "rarity": "SR",
+            "f": "Li'l Kaoru",
+            "c": "Li'l Kaoru CC"
+        },
+        "751": {
+            "rarity": "SR",
+            "f": "Li'l Yahiko",
+            "c": "Li'l Yahiko CC"
+        },
+        "752": {
+            "rarity": "RR",
+            "f": "Kenshin Cat",
+            "c": "Battosai Cat"
+        },
+        "753": {
+            "rarity": "EX",
+            "f": "Kaoru Cat",
+            "c": "Swordscat Kaoru"
+        },
+        "754": {
+            "rarity": "UR",
+            "f": "Akechi Mitsuhide",
+            "c": "Wargod Mitsuhide"
+        },
+        "755": {
+            "rarity": "EX",
+            "f": "Summon 5"
+        },
+        "756": {
+            "rarity": "UR",
+            "f": "Cake Machine",
+            "c": "Wedding Cake Machine"
+        },
+        "757": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N205",
+            "c": "Violet Egg: N205",
+            "s": "Bride Cat"
+        },
+        "758": {
+            "rarity": "UR",
+            "f": "Trixi the Merc",
+            "c": "Trixi the Revenant"
+        },
+        "759": {
+            "rarity": "UR",
+            "f": "Music Fest Thundia",
+            "c": "Music Fest Thundia \u03b2"
+        },
+        "760": {
+            "rarity": "UR",
+            "f": "Gunduros",
+            "c": "Ballistic Dragon Gunduros"
+        },
+        "761": {
+            "rarity": "EX",
+            "f": "Summon 6"
+        },
+        "762": {
+            "rarity": "UR",
+            "f": "Heavenly God Super Zeus",
+            "c": "Giga Almighty God Super Zeus"
+        },
+        "763": {
+            "rarity": "UR",
+            "f": "Dynasaurus Cat",
+            "c": "Mecha Dynasaurus Cat"
+        },
+        "764": {
+            "rarity": "UR",
+            "f": "Summon 7"
+        },
+        "765": {
+            "rarity": "EX",
+            "f": "Ancient Egg: N206",
+            "c": "Cinnabar Egg: N206",
+            "s": "Clam Cat"
+        },
+        "766": {
+            "rarity": "EX",
+            "f": "Sardine",
+            "c": "Sardine CC"
+        },
+        "767": {
+            "rarity": "EX",
+            "f": "Squid",
+            "c": "Squid CC"
+        },
+        "768": {
+            "rarity": "UR",
+            "f": "Taitenki",
+            "c": "Taitenki CC"
+        },
+        "769": {
+            "rarity": "UR",
+            "f": "Hanasaka Cat",
+            "c": "Ravenous Cherry"
+        },
+        "770": {
+            "rarity": "EX",
+            "f": "Summon 8"
+        },
+        "771": {
+            "rarity": "EX",
+            "f": "Master of Life Dr. Nova",
+            "c": "Master of Life Catnova"
+        },
+        "772": {
+            "rarity": "UR",
+            "f": "Pumpkin Sodom",
+            "c": "Sodom-o'-Lantern"
+        },
+        "773": {
+            "rarity": "SR",
+            "f": "Mummy Sumo",
+            "c": "Mama Mummy Sumo"
+        },
+        "774": {
+            "rarity": "UR",
+            "f": "Mech Patrol Axel",
+            "c": "Steel Sergeant Axel"
+        },
+        "775": {
+            "rarity": "EX",
+            "f": "Summon 9"
+        },
+        "776": {
+            "rarity": "EX",
+            "f": "Warrior Cat",
+            "c": "Commander Cat"
+        },
+        "777": {
+            "rarity": "UR",
+            "f": "Winter General Kaihime",
+            "c": "Winter Commander Kaihime"
+        },
+        "778": {
+            "rarity": "UR",
+            "f": "Madoka Cat & Homura",
+            "c": "Magical Cat\u2606 Magica"
+        },
+        "779": {
+            "rarity": "UR",
+            "f": "Celestial Child Luna",
+            "c": "Salvation's Daughter Lunacia"
+        },
+        "780": {
+            "rarity": "RR",
+            "f": "Bowler Cat",
+            "c": "Dodgeballer Cat"
+        },
+        "781": {
+            "rarity": "UR",
+            "f": "Mamoluga",
+            "c": "Mamolan Pasalan"
+        },
+        "783": {
+            "rarity": "UR",
+            "f": "Koneko",
+            "c": "Superstar Koneko"
+        },
+        "784": {
+            "rarity": "EX",
+            "f": "Choco Capsule",
+            "c": "ChocoSurp Cat F"
+        },
+        "785": {
+            "rarity": "RR",
+            "f": "Killer Gross Cat",
+            "c": "True Killer Gross Cat"
+        },
+        "786": {
+            "rarity": "UR",
+            "f": "The Amazing Catman",
+            "c": "Illusionist Catman"
+        },
+        "787": {
+            "rarity": "UR",
+            "f": "Netherworld Nymph Lunacia",
+            "c": "Death's Daughter Lunacia"
+        },
+        "788": {
+            "rarity": "EX",
+            "f": "Stealth Cat",
+            "c": "Surprise Stealth Cat"
+        },
+        "789": {
+            "rarity": "UR",
+            "f": "Baki Hanma",
+            "c": "Baki Hanma CC"
+        },
+        "790": {
+            "rarity": "UR",
+            "f": "Retsu Kaioh",
+            "c": "Retsu Kaioh CC"
+        },
+        "791": {
+            "rarity": "UR",
+            "f": "Kaoru Hanayama",
+            "c": "Kaoru Hanayama CC"
+        },
+        "792": {
+            "rarity": "UR",
+            "f": "Katsumi Orochi",
+            "c": "Katsumi Orochi CC"
+        },
+        "793": {
+            "rarity": "UR",
+            "f": "Jack Hammer",
+            "c": "Jack Hammer CC"
+        },
+        "794": {
+            "rarity": "SR",
+            "f": "Ogre Cat",
+            "c": "Ogre Cat Face"
+        },
+        "795": {
+            "rarity": "EX",
+            "f": "Li'l Baki",
+            "c": "Li'l Baki CC"
+        },
+        "796": {
+            "rarity": "EX",
+            "f": "Baki Cat",
+            "c": "Baki Cat CC"
+        },
+        "797": {
+            "rarity": "EX",
+            "f": "Kaioh Cat",
+            "c": "Kaioh Cat CC"
+        },
+        "798": {
+            "rarity": "EX",
+            "f": "Doppo Cat",
+            "c": "Doppo Cat CC"
+        }
+    },
+    "banner": {}
+}
