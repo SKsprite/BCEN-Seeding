@@ -24,14 +24,21 @@ class LCG {
     constructor(seed: number) {
         // Ensure it's a 32-bit unsigned int
         this.seed = seed >>> 0;
-        this.next();
     }
     // returns a float ∈ [0,1)
     next(): number {
         this.seed = seedIter(this.seed);
-        // return this.seed / 0x1_0000_0000;
         return this.seed;
     }
+    sim_next(): number {
+        return seedIter(this.seed);
+        // return this.seed;
+    }
+
+    random(): number {
+        return this.next() / 0x1_0000_0000;
+    }
+
     // reset the seed
     setSeed(seed: number) {
         this.seed = seed >>> 0;
@@ -56,6 +63,7 @@ export class Gacha {
     private currentGacha: GachaBanner;
     private rng: LCG;
     private pityCounter = 0;
+    private fullEventName: string;
 
     constructor(eventKey: string, seed = 1) {
         // 1. Load the master bc-en.yaml
@@ -74,6 +82,9 @@ export class Gacha {
         // 4. Grab the full cats map and seed the RNG
         this.cats           = this.schema.cats;
         this.rng            = new LCG(seed);
+
+        this.fullEventName = `${this.selectedEvent.name}
+        ${this.currentGacha.name == this.selectedEvent.name ? '' : `(${this.currentGacha.name})`}`;
     }
 
     /** Reset RNG and pity counter */
@@ -89,25 +100,52 @@ export class Gacha {
         const supa   = this.selectedEvent.supa   ?? 0;
         const rare   = this.selectedEvent.rare   ?? 0;
         const totalRate = legend + uber + supa + rare;
-        const seed = this.rng.next();
+        // console.log('BANNER RATES:', {
+        //     legend: this.selectedEvent.legend,
+        //     uber:   this.selectedEvent.uber,
+        //     supa:   this.selectedEvent.supa,
+        //     rare:   this.selectedEvent.rare,
+        // });
+        // const seed = this.rng.next();
+        const rawSeed = this.rng.next();
+        const rnd = rawSeed / 0x1_0000_0000;
         // console.log(seed)
         // a) Optional pity logic (default 300 draws)
         const pityThreshold = (this.selectedEvent as any).pityThreshold ?? 300;
+        // 3) pity?
         if (this.pityCounter >= pityThreshold) {
             this.pityCounter = 0;
-            // Force an Uber pull
-            const uberCats = this.currentGacha.cats.filter(id => this.cats[id].rarity === 3);
-            const id = uberCats[Math.floor(seed * uberCats.length)];
-            return {seed, id, name: this.cats[id].name[0], rarity: 'Uber Rare' };
+            const uberCats = this.currentGacha.cats.filter(id => this.cats[id].rarity === 4);
+            const idx = Math.floor(rnd * uberCats.length);
+            return {
+            seed: rawSeed,
+            id: uberCats[idx],
+            name: this.cats[uberCats[idx]].name[0],
+            rarity: 'Uber Rare'
+            };
         }
 
         // b) Roll category by event rates
-        const roll = Math.abs(seed % totalRate);
+        // const roll = rnd * totalRate;
+        const roll = Math.abs(rawSeed) % totalRate;
+        // console.log(
+        //     'ROLL →', { rawSeed, rnd, roll, thresholds: [
+        //         ['legend', legend],
+        //         ['uber', legend + uber],
+        //         ['supa', legend + uber + supa],
+        //         ['rare', totalRate]
+        //     ]}
+        // );
         let category: 'legend'|'uber'|'supa'|'rare';
-        if (roll < legend)                      category = 'legend';
-        else if (roll < legend + uber)          category = 'uber';
-        else if (roll < legend + uber + supa)   category = 'supa';
-        else                                    category = 'rare';
+        
+        const legendChance = totalRate - legend;
+        const uberChance = legendChance - uber;
+        const supaChance = uberChance - supa;
+
+        if (roll >= legendChance )      category = 'legend';
+        else if (roll >= uberChance)    category = 'uber';
+        else if (roll >= supaChance)    category = 'supa';
+        else                            category = 'rare';
 
         // 4) Map category → rarity code
         const rarityMap = { legend: 5, uber: 4, supa: 3, rare: 2 } as const;
@@ -120,20 +158,18 @@ export class Gacha {
         }
 
         // 6) Pick a cat
-        const pickIdx = Math.abs(Math.floor(seed % eligible.length));
+        const rawPick = this.rng.sim_next();
+        const pickIdx = rawPick % eligible.length;
+        // const pickIdx = Math.floor(rnd * eligible.length);
         const id = eligible[pickIdx];
         const entry = this.cats[id];
-
-        // e) Update pity: reset on Uber, else increment
-        if (category === 'uber') this.pityCounter = 0;
-        else                     this.pityCounter++;
 
         // f) Choose the “maxed” name based on stat array length
         const nameIndex = Math.min(entry.name.length - 1, entry.stat.length - 1);
         const name = entry.name[0];
 
         return {
-        seed,
+        seed: rawPick,
         id,
         name,
         rarity: category === 'legend'
@@ -149,5 +185,17 @@ export class Gacha {
     /** Perform n pulls */
     public draw(n = 10): PullResult[] {
         return Array.from({ length: n }, () => this.drawOne());
+    }
+
+    public drawCols(n = 10): {EventName: string, A: PullResult[], B: PullResult[]} {
+        const A: PullResult[] = [];
+        const B: PullResult[] = [];
+        for (let i = 0; i < n; i++) {
+            A.push(this.drawOne());
+            B.push(this.drawOne());
+        }
+        const EventName = this.fullEventName;
+        console.log(EventName)
+        return {EventName, A, B };
     }
 }

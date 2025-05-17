@@ -48,7 +48,9 @@ export async function GET(request: Request) {
     try {
         // Parse params (as above)…
         const sim = new Gacha(eventKey, Number(seed));
-        const results = sim.draw(count);
+        // const results = sim.draw(count);
+        const { EventName, A, B } = sim.drawCols(count);
+        const results = { EventName, A, B };
         return NextResponse.json({ results });  // 200 OK with JSON :contentReference[oaicite:6]{index=6}
     } catch (err: any) {
         return NextResponse.json({ error: err.message }, { status: 500 });

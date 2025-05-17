@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { getCats, getEvents, getGacha } from '@/utils/loadYaml'
+import { error } from 'console';
+import { errorMonitor } from 'events';
 
 type GachaResult = {
 	id: string;
@@ -19,16 +21,149 @@ const legend = {
         "2":'Rare'
 } as const;
 
+type Pull = { description: string; seed: number };
+
+// One banner’s results
+type BannerResults = {
+    EventName: string;
+    A?: Pull[];
+    B?: Pull[];
+};
+
+// A map from event IDs → their pull results
+type PullsMap = Record<string, BannerResults>;
+
 type LegendKey = keyof typeof legend;
+
+interface PullsTableProps {
+    /** The event ID (shown as a heading above the table) */
+    // eventKey: string;
+    /** The actual pulls for this banner */
+    pulls: BannerResults;
+}
+
+const PullsTable: React.FC<PullsTableProps> = ({
+    pulls,
+}) => {
+    const [showBanner, setShowBanner] = useState(true);
+    const [showA, setShowA]           = useState(true);
+    const [showB, setShowB]           = useState(true);
+
+    const { EventName, A= [], B = [] } = pulls;
+
+    if (!showBanner) {
+        return (
+        <div className="mb-8 w-full p-4 border rounded bg-gray-100">
+            <button
+            className="text-blue-600 underline"
+            onClick={() => setShowBanner(true)}
+            >
+            Show banner &quot;{EventName}&quot;
+            </button>
+        </div>
+        );
+    }
+
+    if (!A || !B) {
+        return (
+            <div className="mb-8 w-full p-4 border rounded bg-gray-100">
+                {EventName}
+            </div>
+            );
+    }
+
+    // number of rows = max length of A or B
+    const rowCount = Math.max(A.length, B.length);
+    const colCount = (showA ? 2 : 0) + (showB ? 2 : 0);
+
+    return (
+        <div className="mb-8 w-full border rounded overflow-hidden">
+            <table className="w-full border-collapse">
+                <thead>
+                    {/* Banner title row */}
+                    <tr className="bg-gray-200">
+                        <th colSpan={colCount} className="p-2 text-left">
+                            <div className="flex items-center justify-between">
+                                <span className="font-semibold">Banner:<br/>{EventName}</span>
+                                <div className="flex gap-4 items-center">
+                                    <label className="inline-flex items-center">
+                                        <input
+                                        type="checkbox"
+                                        checked={showBanner}
+                                        onChange={() => setShowBanner(v => !v)}
+                                        className="mr-1"
+                                        />
+                                        Show
+                                    </label>
+                                    <label className="inline-flex items-center">
+                                        <input
+                                        type="checkbox"
+                                        checked={showA}
+                                        onChange={() => setShowA(v => !v)}
+                                        className="mr-1"
+                                        />
+                                        Col A
+                                    </label>
+                                    <label className="inline-flex items-center">
+                                        <input
+                                        type="checkbox"
+                                        checked={showB}
+                                        onChange={() => setShowB(v => !v)}
+                                        className="mr-1"
+                                        />
+                                        Col B
+                                    </label>
+                                </div>
+                            </div>
+                        </th>
+                        </tr>
+                        {/* Column headers */}
+                        <tr>
+                            {showA && <th className="border px-2 py-1">No.</th>}
+                            {showA && <th className="border px-2 py-1">Result A</th>}
+                            {showB && <th className="border px-2 py-1">No.</th>}
+                            {showB && <th className="border px-2 py-1">Result B</th>}
+                        </tr>
+                    </thead>
+                <tbody>
+                {Array.from({ length: rowCount }).map((_, i) => {
+                    const pullA = A[i];
+                    const pullB = B[i];
+                    const rowNum = i + 1;
+                    return (
+                        <tr
+                            key={i}
+                            className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
+                        >
+                            {showA && (
+                            <>
+                                <td className="border px-2 py-1">{pullA ? `${rowNum}A` : '-'}</td>
+                                <td className="border px-2 py-1">
+                                {pullA?.description ?? '-'}
+                                </td>
+                            </>
+                            )}
+                            {showB && (
+                            <>
+                                <td className="border px-2 py-1">{pullB ? `${rowNum}B` : '-'}</td>
+                                <td className="border px-2 py-1">
+                                {pullB?.description ?? '-'}
+                                </td>
+                            </>
+                            )}
+                        </tr>
+                        );
+                    })}
+                </tbody>
+            </table>
+        </div>
+    );
+};
 
 export default function Home() {
 	const [seedID, setSeedID] = useState('');
 	const [eventID, setEventID] = useState('');
-	const [result, setResult] = useState<{ description: string; seed: number }[] | string | null>(null);
-
-    // new state for toggling columns
-    const [showA, setShowA] = useState(true);
-    const [showB, setShowB] = useState(true);
+	const [result, setResult] = useState<PullsMap | string | null>(null);
 
     // const handleSearch = async () => {
     //     try {
@@ -102,30 +237,58 @@ export default function Home() {
     //     }
     // };
 
+    const getPrediction = async (eventKey: string, seedID: number): Promise<BannerResults> => {
+        try {
+            const res = await fetch(
+                `/api/gacha?eventKey=${encodeURIComponent(eventKey)}&seed=${encodeURIComponent(seedID)}&count=100`
+            );
+            if (!res.ok) throw new Error(`API error ${res.status}`);
+            
+            const json = await res.json() as {
+                results: {
+                    EventName: string;
+                    A: Array<{ id: number; name: string; rarity: string; seed: number }>;
+                    B: Array<{ id: number; name: string; rarity: string; seed: number }>;
+                }
+            };
+
+            // map the raw API shape into your Pull type
+            const A: Pull[] = json.results.A.map(u => ({
+                description: `#${u.id} ${u.name} (${u.rarity}) - seed: ${u.seed}`,
+                seed: u.seed
+            }));
+            const B: Pull[] = json.results.B.map(u => ({
+                description: `#${u.id} ${u.name} (${u.rarity}) - seed: ${u.seed}`,
+                seed: u.seed
+            }));
+            const EventName = json.results.EventName
+
+            return {EventName, A, B };
+        }
+        catch (err) {
+            console.error(err);
+
+            const errorReturn = { EventName: `Error fetching ${eventKey} banner data: ${err}` };
+            return errorReturn;
+        }
+    }
+
     const handleSearch = async () => {
         try {
-            // Prepare an empty array for our pulls
-            type Pull = { description: string; seed: number };
-            const pulls: Pull[] = [];
-        
-            // 1. Fetch from your API endpoint
-            const response = await fetch(
-                `/api/gacha?eventKey=${encodeURIComponent(eventID)}&seed=${encodeURIComponent(seedID)}&count=200`
-            );
-        
-            // 2. Parse the JSON body
-            const data = (await response.json()) as {
-                results: Array<{ id: number; name: string; rarity: string; seed: number }>;
-            };
-            // 3. Iterate over each result using for…of :contentReference[oaicite:4]{index=4}
-            for (const unit of data.results) {
-                // If your API now returns unit.seed, use it; otherwise omit or replace with the next seed
-                const description = `#${unit.id} ${unit.name} (${unit.rarity})` +
-                                    (unit.seed ? ` - current seed: ${unit.seed}` : '');
-                pulls.push({ description, seed: unit.seed });
+            // Split into an array of event keys
+            const eventKeys = eventID.split(",").map(s => s.trim());
+            const pulls: PullsMap = {};
+
+            for (const key of eventKeys) {
+                // call getPrediction and store its result under this key
+                const banner = await getPrediction(key, Number(seedID));
+                if (!banner.B) {
+                    console.error(`${banner.EventName}`);
+                    continue;
+                }
+                pulls[key] = banner;
             }
-        
-            // 4. Update state
+
             setResult(pulls);
         } catch (err) {
             console.error(err);
@@ -148,6 +311,10 @@ export default function Home() {
         return g >>> 0; // Return as 32-bit unsigned integer
     }
     
+
+    const isMap = result && typeof result !== 'string';
+    const bannerCount = isMap ? Object.keys(result).length : 0;
+
 
 
 	return (
@@ -177,85 +344,45 @@ export default function Home() {
 					<button onClick={handleSearch} className="bg-blue-500 text-white px-4 py-2 rounded">
 						Search
 					</button>
-					{/* Toggle checkboxes */}
-                    <div className="flex gap-6 mb-4">
-                        <label className="inline-flex items-center">
-                        <input
-                            type="checkbox"
-                            checked={showA}
-                            onChange={() => setShowA(!showA)}
-                            className="mr-2"
-                        />
-                        Show Column A
-                        </label>
-                        <label className="inline-flex items-center">
-                        <input
-                            type="checkbox"
-                            checked={showB}
-                            onChange={() => setShowB(!showB)}
-                            className="mr-2"
-                        />
-                        Show Column B
-                        </label>
-                    </div>
 
-                    {Array.isArray(result) && (
-                        <table className="w-full border-collapse border">
-                        <thead>
-                            <tr>
-                            {showA && <th className="border px-2 py-1">No.</th>}
-                            {showA && <th className="border px-2 py-1">Result</th>}
-                            {showB && <th className="border px-2 py-1">Alt No.</th>}
-                            {showB && <th className="border px-2 py-1">Alt Result</th>}
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {Array.from({ length: Math.ceil(result.length / 2) }).map((_, rowIndex) => {
-                            const idxA = rowIndex * 2;
-                            const idxB = rowIndex * 2 + 1;
-                            const pullA = result[idxA];
-                            const pullB = result[idxB];
-                            const rowNum = rowIndex + 1;
-
-                            return (
-                                <tr key={rowIndex} className={rowIndex % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                                {showA && (
-                                    <>
-                                    <td className="border px-2 py-1 align-top whitespace-pre-wrap">
-                                    {pullA
-                                        ? `${rowNum}A`
-                                        : '-'}
-                                    </td>
-                                    <td className="border px-2 py-1 align-top whitespace-pre-wrap">
-                                    {pullA
-                                        ? `${pullA.description}`
-                                        : '-'}
-                                    </td>
-                                    </>
-                                )}
-                                {showB && (
-                                    <>
-                                    <td className="border px-2 py-1 align-top whitespace-pre-wrap">
-                                    {pullB
-                                        ? `${rowNum}B`
-                                        : '-'}
-                                    </td>
-                                    <td className="border px-2 py-1 align-top whitespace-pre-wrap">
-                                    {pullB
-                                        ? `${pullB.description}`
-                                        : '-'}
-                                    </td>
-                                    </>
-                                )}
-                                </tr>
-                            );
-                            })}
-                        </tbody>
-                        </table>
-                    )}
+                    {/* inputs & button etc */}
                     {typeof result === 'string' && (
                         <p className="text-red-600 mt-4">{result}</p>
                     )}
+
+                    {isMap && (
+                        <div
+                            className="
+                            flex flex-nowrap gap-4
+                            overflow-x-auto overflow-y-hidden
+                            px-2
+                            "
+                        >
+                            {Object.entries(result as PullsMap).map(
+                                ([eventKey, pulls]) => {
+                                    // pick the width class:
+                                    const wClass =
+                                    bannerCount === 1
+                                        ? 'w-full'
+                                        : bannerCount === 2
+                                        ? 'w-[48%]'
+                                        : 'w-[30%]';
+
+                                    return (
+                                    <div
+                                        key={eventKey}
+                                        className={`flex-none ${wClass}`}
+                                    >
+                                        <PullsTable
+                                        pulls={pulls}
+                                        />
+                                    </div>
+                                    );
+                                }
+                            )}
+                        </div>
+                    )}
+					
 				</div>
 			</main>
 			<footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
