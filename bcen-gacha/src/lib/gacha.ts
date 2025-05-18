@@ -195,7 +195,6 @@ export class Gacha {
             B.push(this.drawOne());
         }
         const EventName = this.fullEventName;
-        console.log(EventName)
         return {EventName, A, B };
     }
 }
